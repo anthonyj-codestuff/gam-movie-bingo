@@ -1,6 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=9 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Texture2D" uid="uid://cxgnq8yhc45vs" path="res://assets/test_bg.png" id="1_dmqlr"]
+[ext_resource type="Script" path="res://BingoGrid.gd" id="2_dfj1a"]
+[ext_resource type="Texture2D" uid="uid://2fxw6skmw8u1" path="res://assets/1.png" id="3_l7ljh"]
+[ext_resource type="Texture2D" uid="uid://bds7t80ipybry" path="res://assets/5.png" id="4_ei06l"]
+[ext_resource type="Texture2D" uid="uid://dh3m1uo3j2dlj" path="res://assets/8.png" id="5_ri0eq"]
+[ext_resource type="Texture2D" uid="uid://c3sihmeq58tf6" path="res://assets/9.png" id="6_1atqb"]
+[ext_resource type="Texture2D" uid="uid://c527b5t5oukyu" path="res://assets/6.png" id="7_fr2xd"]
+[ext_resource type="Texture2D" uid="uid://dju6eqeyygyd4" path="res://assets/4.png" id="8_y0orq"]
 
 [node name="Main" type="Node2D"]
 
@@ -8,3 +15,38 @@
 position = Vector2(400, 400)
 scale = Vector2(1.6, 1.6)
 texture = ExtResource("1_dmqlr")
+
+[node name="Grid" type="Node2D" parent="."]
+
+[node name="GridContainer" type="GridContainer" parent="Grid"]
+offset_right = 1208.0
+offset_bottom = 1004.0
+columns = 3
+script = ExtResource("2_dfj1a")
+
+[node name="TextureRect" type="TextureRect" parent="Grid/GridContainer"]
+layout_mode = 2
+texture = ExtResource("3_l7ljh")
+stretch_mode = 4
+
+[node name="TextureRect2" type="TextureRect" parent="Grid/GridContainer"]
+layout_mode = 2
+texture = ExtResource("4_ei06l")
+
+[node name="TextureRect3" type="TextureRect" parent="Grid/GridContainer"]
+layout_mode = 2
+texture = ExtResource("5_ri0eq")
+
+[node name="TextureRect4" type="TextureRect" parent="Grid/GridContainer"]
+layout_mode = 2
+texture = ExtResource("6_1atqb")
+
+[node name="TextureRect5" type="TextureRect" parent="Grid/GridContainer"]
+layout_mode = 2
+texture = ExtResource("7_fr2xd")
+stretch_mode = 4
+
+[node name="TextureRect6" type="TextureRect" parent="Grid/GridContainer"]
+layout_mode = 2
+texture = ExtResource("8_y0orq")
+stretch_mode = 4
