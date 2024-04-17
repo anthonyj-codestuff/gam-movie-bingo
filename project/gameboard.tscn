@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=10 format=3 uid="uid://buksg42wk3ks8"]
 
+[ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 [ext_resource type="Texture2D" uid="uid://cxgnq8yhc45vs" path="res://assets/test_bg.png" id="1_dmqlr"]
 [ext_resource type="Script" path="res://BingoGrid.gd" id="2_dfj1a"]
 [ext_resource type="Texture2D" uid="uid://2fxw6skmw8u1" path="res://assets/1.png" id="3_l7ljh"]
@@ -10,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://dju6eqeyygyd4" path="res://assets/4.png" id="8_y0orq"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_2kbe3")
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(400, 400)
@@ -50,3 +52,11 @@ stretch_mode = 4
 layout_mode = 2
 texture = ExtResource("8_y0orq")
 stretch_mode = 4
+
+[node name="Label" type="Label" parent="."]
+offset_left = 580.0
+offset_top = 538.0
+offset_right = 620.0
+offset_bottom = 561.0
+theme_override_font_sizes/font_size = 50
+text = "TEXT"
