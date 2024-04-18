@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://crhlnby7toogc"]
+
+[ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
+[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/blank.png" id="2_rxh5q"]
+[ext_resource type="FontFile" uid="uid://cxriyg2r0coon" path="res://assets/CantedComic Bold.otf" id="3_2o078"]
+
+[node name="BingoSquare" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1000.0
+offset_bottom = -800.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0qmsi")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("2_rxh5q")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_2o078")
+theme_override_font_sizes/normal_font_size = 25
+bbcode_enabled = true
+text = "[center]TEXT THAT STAYS CENTERED[/center]"
+fit_content = true
+scroll_active = false
+tab_size = 2
+
+[node name="ClickButton" type="Button" parent="."]
+layout_mode = 2
+flat = true
+
+[connection signal="pressed" from="ClickButton" to="." method="_on_click_button_pressed"]
