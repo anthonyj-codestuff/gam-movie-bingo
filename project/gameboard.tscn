@@ -1,15 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=2 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
-[ext_resource type="Script" path="res://BingoGrid.gd" id="2_dfj1a"]
 
-[node name="Main" type="Node2D"]
-script = ExtResource("1_2kbe3")
-
-[node name="Grid" type="Node2D" parent="."]
-
-[node name="GridContainer" type="GridContainer" parent="Grid"]
+[node name="GameBoard" type="GridContainer"]
 offset_right = 1208.0
 offset_bottom = 1004.0
 columns = 3
-script = ExtResource("2_dfj1a")
+script = ExtResource("1_2kbe3")
