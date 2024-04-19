@@ -3,7 +3,9 @@
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 
 [node name="GameBoard" type="GridContainer"]
-offset_right = 1208.0
-offset_bottom = 1004.0
+offset_left = 50.0
+offset_top = 250.0
+offset_right = 850.0
+offset_bottom = 1050.0
 columns = 3
 script = ExtResource("1_2kbe3")

@@ -9,9 +9,11 @@ var windowHeight: int = int(DisplayServer.window_get_size().y)
 func _ready():
 	columns = gridSize
 
-	# set position
-	##position = Vector2(Game.PADDINGL, Game.PADDINGT+Game.HEADERH)
-	position = Vector2(Game.PADDINGL, Game.PADDINGT)
+	# set position and size
+	position = Vector2(Game.PADDINGL, Game.PADDINGT+Game.HEADERH)
+	var boardWidth = windowWidth - Game.PADDINGL - Game.PADDINGR
+	var boardHeight = windowHeight - Game.PADDINGB - Game.PADDINGT - Game.HEADERH
+	size = Vector2(boardWidth, boardHeight)
 	
 	# spawn child nodes
 	for i in pow(gridSize, 2):

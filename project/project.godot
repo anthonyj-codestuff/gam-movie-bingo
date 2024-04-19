@@ -22,8 +22,8 @@ Game="*res://global/game.gd"
 
 [display]
 
-window/size/viewport_width=1200
-window/size/viewport_height=1000
+window/size/viewport_width=900
+window/size/viewport_height=1100
 window/stretch/mode="canvas_items"
 
 [rendering]

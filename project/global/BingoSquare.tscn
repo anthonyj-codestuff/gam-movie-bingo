@@ -1,24 +1,34 @@
-[gd_scene load_steps=4 format=3 uid="uid://crhlnby7toogc"]
+[gd_scene load_steps=5 format=3 uid="uid://crhlnby7toogc"]
 
 [ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
+[ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/tick.png" id="2_q0j11"]
 [ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/blank.png" id="2_rxh5q"]
 [ext_resource type="FontFile" uid="uid://cxriyg2r0coon" path="res://assets/CantedComic Bold.otf" id="3_2o078"]
 
 [node name="BingoSquare" type="MarginContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 offset_right = 200.0
 offset_bottom = 200.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 theme_override_constants/margin_left = 2
 theme_override_constants/margin_top = 2
 theme_override_constants/margin_right = 2
 theme_override_constants/margin_bottom = 2
 script = ExtResource("1_0qmsi")
 
+[node name="Tick" type="TextureRect" parent="."]
+z_index = 1
+z_as_relative = false
+layout_mode = 2
+texture = ExtResource("2_q0j11")
+expand_mode = 4
+
 [node name="TextureRect" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 layout_mode = 2
 texture = ExtResource("2_rxh5q")
-expand_mode = 3
+expand_mode = 1
 stretch_mode = 5
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
