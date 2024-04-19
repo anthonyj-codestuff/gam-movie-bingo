@@ -1,0 +1,854 @@
+{
+	"title": "Conspiracy Theories",
+	"freeSpaceText": ["\"They\"", "Flat Earth", "Antivax", "Supernatural"],
+	"active": true,
+	"data": [
+		{
+			"title": "It Was Aliens",
+			"subCategories": ["supernatural"],
+			"tooltip": "stated or implied as the explanation for something",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Body Double",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "__ Hung Out With Epstein",
+			"subCategories": [],
+			"tooltip": "a claim that someone was close to Epstein. NOT just an image of Trump",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Cancel the Election",
+			"subCategories": [],
+			"tooltip": "claim that future elections will be suspended",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "CHI-COMS!!!",
+			"subCategories": [],
+			"tooltip": "fearmongering related to Communist China",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "George Soros",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Biden Resigns",
+			"subCategories": [],
+			"tooltip": "claims that Joe Biden plans to resign as part of a plan to seize power",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Pedophile Ring",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"COVID Mandates\"",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Jan 6",
+			"subCategories": ["maga"],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Assassination",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Hunter Biden",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Hunter Biden (Penis)",
+			"subCategories": [],
+			"tooltip": "an image or reference to Hunter's meaty 9-incher",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Adrenochrome",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Dr. Fauchi",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Rioters Referred to as Patriots",
+			"subCategories": ["maga"],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Weird Trump Worship",
+			"subCategories": ["maga"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Fluoride in the Water",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Reptiles",
+			"subCategories": ["supernatural"],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Numerology",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Chemtrails",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Fake News\"",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Great Replacement Theory",
+			"subCategories": [],
+			"tooltip": "the conspiracy theory that white people are being displaced by growing the populations of minority groups",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Area 51",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "New World Order",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Freemasons",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Thought Control",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Moon Landing Denial",
+			"subCategories": ["flat earth"],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Holocaust Denial",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Everything starts to make sense\"",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Illuminati",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "666",
+			"subCategories": ["christianity"],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "The Satanic Temple",
+			"subCategories": ["christianity"],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "After School Satan",
+			"subCategories": ["christianity"],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Nazis",
+			"subCategories": [],
+			"tooltip": "calling someone a Nazi or showing actual Nazis",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Face on Mars",
+			"subCategories": ["flat earth"],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Conspiracy That's Actually Just Capitalism ",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Black Budget",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Earth is Flat",
+			"subCategories": ["flat earth"],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Impassioned Speech",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Klaus Schwab",
+			"subCategories": [],
+			"tooltip": "german rich guy. He's probably speaking at the world economic forum",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Quoting 1984",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Jews",
+			"subCategories": [],
+			"tooltip": "mentioning jews in any way or context. also acceptable: zionists or israel",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "JEWS (hard J)",
+			"subCategories": [],
+			"tooltip": "this is gonna be up to your own judgement. do they make \"jews\" sound like a slur?",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Anti-Vaccination",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Mask Mandate",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "9/11 Was an Inside Job",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Alex Jones",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Obama's Birth Certificate",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Barack HUSSEIN Obama",
+			"subCategories": [],
+			"tooltip": "they have to say the full name or it doesn't count",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Subliminal Messages",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "HAARP/Weather Control",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Military Industrial Complex",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Sharia Law",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "The Gay Agenda",
+			"subCategories": ["lgbt"],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Do Your Own Research",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Hilary Clinton's Emails",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Deep State",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "5G",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Fox News Clip",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "AfterEffects Red Eyes",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "False Flag",
+			"subCategories": [],
+			"tooltip": "the claim that a conflict was staged as an excuse for other action",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Blackrock",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "The Great Reset",
+			"subCategories": [],
+			"tooltip": "the claim that the world population is going to be purposefully slashed to make way for a new way of life",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "QAnon",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"You Will Own Nothing and Like It\"",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "__ is a Body Double",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "__ Is Still Alive",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Just Asking Questions",
+			"subCategories": [],
+			"tooltip": "someone claims to be persecuted for searching for truth",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Bill Gates",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Rockefeller",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Antifa Riots",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Woke",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Microchips",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Big Pharma",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Vaccine Injury",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "George Soros",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "David Icke",
+			"subCategories": ["supernatural"],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Lost Civilization",
+			"subCategories": ["supernatural"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Unexplained Thing (It has an explanation)",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"They\"",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Solar Eclipse",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Bible Quote",
+			"subCategories": [],
+			"tooltip": "any bible passage on screen",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Odd Credentials",
+			"subCategories": [],
+			"tooltip": "a person speaking has their credentials listed as something other than \"expert in the thing they are talking about\"",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Banning Books",
+			"subCategories": [],
+			"tooltip": "banning or burning books presented as either good or bad",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Trans-ing Our Children",
+			"subCategories": ["lgbt"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Innocuous Footage With Scary Music",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "The JQ",
+			"subCategories": [],
+			"tooltip": "the jewish question. claiming that there is a secret cabal of (((people))) who control society from behind the scenes",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Jesuits",
+			"subCategories": ["christianity"],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "White Genocide",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "World War III",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Cultural Marxism",
+			"subCategories": [],
+			"tooltip": "also acceptable: cultural bolshevism",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Transvestigation",
+			"subCategories": ["lgbt"],
+			"tooltip": "looking at a person and theorizing that they are not the gender they claim to be",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Talking in Front of Books",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Video Shot in Vehicle",
+			"subCategories": [],
+			"tooltip": "bonus points if they are wearing sunglasses",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Climate Change is a Hoax",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Secret Symbols",
+			"subCategories": [],
+			"tooltip": "anything from the mark of the beast to secret communist hand signals",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "The Mark of the Beast",
+			"subCategories": ["christianity"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Footage of Nazis",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Nanobots",
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Man on the Street Interview",
+			"subCategories": [],
+			"tooltip": "a person is stopped at random for an interview, usually with a shaky camera",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Vladimir Putin",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Dark Brandon",
+			"subCategories": [],
+			"tooltip": "Joe Biden looking evil for any reason",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Sleepy Joe",
+			"subCategories": [],
+			"tooltip": "Joe Biden looking stupid or feeble",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Stolen Election",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "There Are No Coincidences",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Visible InfoWars Logo",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Joe Rogan",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Pepe Silvia Board",
+			"subCategories": [],
+			"tooltip": "a board with string and pins, ironic or serious",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "You Will Eat Ze Bugs",
+			"subCategories": [],
+			"tooltip": "reference to eating bugs, even with no accent",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Sandy Hook",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Tucker Carlson",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "The MyPillow Guy",
+			"subCategories": [],
+			"tooltip": "whatever his name was",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Cryptids",
+			"subCategories": ["supernatural"],
+			"tooltip": "bigfoot, nessie, sasquatch, or other such naturally blurry creature",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Sheeple",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Police State",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Southern Poverty Law Center",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Voter Fraud",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Conspicuous Book in Background",
+			"subCategories": [],
+			"tooltip": "could be the speaker's book for sale or a bible, but it is relevant and prominent",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"USA! USA! USA!\"",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "15-Minute Cities",
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		}
+	]
+}
