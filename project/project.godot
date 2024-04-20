@@ -25,6 +25,7 @@ Game="*res://global/game.gd"
 window/size/viewport_width=900
 window/size/viewport_height=1100
 window/stretch/mode="canvas_items"
+window/handheld/orientation=1
 
 [rendering]
 

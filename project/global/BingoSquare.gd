@@ -20,4 +20,6 @@ func setState(width:int, height:int, fontSize:int, text:String, image:Texture2D)
 
 
 func _on_click_button_pressed():
+	var isVisible = self.get_node("Tick").visible
+	self.get_node("Tick").visible = !isVisible
 	print(textContents)

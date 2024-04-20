@@ -2,25 +2,22 @@ extends GridContainer
 var BingoSquare = preload("res://global/BingoSquare.tscn")
 
 var gridSize: int = Game.gridSize
-var windowWidth: int = int(DisplayServer.window_get_size().x)
-var windowHeight: int = int(DisplayServer.window_get_size().y)
+var boardWidth: int
+var boardHeight: int
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	# set board parameters
 	columns = gridSize
-
-	# set position and size
-	position = Vector2(Game.PADDINGL, Game.PADDINGT+Game.HEADERH)
-	var boardWidth = windowWidth - Game.PADDINGL - Game.PADDINGR
-	var boardHeight = windowHeight - Game.PADDINGB - Game.PADDINGT - Game.HEADERH
-	size = Vector2(boardWidth, boardHeight)
+	boardWidth = size.x
+	boardHeight = size.y
 	
 	# spawn child nodes
+	var cellWidth = boardWidth / gridSize
+	var cellHeight = boardHeight / gridSize
 	for i in pow(gridSize, 2):
-		var x = (windowWidth - Game.PADDINGR - Game.PADDINGL) / gridSize
-		var y = (windowHeight - Game.PADDINGT - Game.PADDINGB) / gridSize
 		print("Creating new child " + str(i))
-		addNode(x, y, 30, str(i+1))
+		addNode(cellWidth, cellHeight, 30, str(i+1))
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

@@ -18,6 +18,7 @@ theme_override_constants/margin_bottom = 2
 script = ExtResource("1_0qmsi")
 
 [node name="Tick" type="TextureRect" parent="."]
+visible = false
 z_index = 1
 z_as_relative = false
 layout_mode = 2
