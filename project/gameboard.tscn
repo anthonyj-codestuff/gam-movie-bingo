@@ -1,9 +1,73 @@
-[gd_scene load_steps=2 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=3 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
+[ext_resource type="Texture2D" uid="uid://b873d5xkvrard" path="res://assets/logo-gam.png" id="1_e7x7v"]
 
-[node name="GameBoard" type="GridContainer"]
-offset_right = 1208.0
-offset_bottom = 1004.0
+[node name="VBoxContainer" type="VBoxContainer"]
+offset_right = 900.0
+offset_bottom = 1100.0
+theme_override_constants/separation = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(2.08165e-12, 200)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="MarginContainer2" type="MarginContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(250, 2.08165e-12)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="Header" type="TextureRect" parent="HBoxContainer/MarginContainer2"]
+custom_minimum_size = Vector2(2.08165e-12, 200)
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("1_e7x7v")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(250, 2.08165e-12)
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Container" type="Container" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "CATEGORY"
+
+[node name="Label2" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "SCORE"
+
+[node name="Container2" type="Container" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="BoardBorder" type="MarginContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="GameBoard" type="GridContainer" parent="BoardBorder"]
+layout_mode = 2
+size_flags_vertical = 3
 columns = 3
 script = ExtResource("1_2kbe3")
