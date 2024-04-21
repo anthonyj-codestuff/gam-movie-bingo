@@ -27,3 +27,7 @@ func addNode(width:int, height:int, fontSize:int, text:String, image:Texture2D =
 	var square = BingoSquare.instantiate()
 	square.setState(width, height, fontSize, text, image)
 	add_child(square)
+
+
+func _on_back_pressed():
+	get_tree().change_scene_to_file("res://menu.tscn")
