@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://60tda85jp7ru"]
+[gd_scene load_steps=3 format=3 uid="uid://60tda85jp7ru"]
 
+[ext_resource type="Script" path="res://LoadGameMode.gd" id="2_h7vfg"]
 [ext_resource type="Script" path="res://ButtonContainer.gd" id="2_y0ubd"]
 
 [node name="menu" type="Node2D"]
@@ -97,7 +98,17 @@ theme_override_colors/font_pressed_color = Color(0.533333, 0.533333, 0.533333, 1
 theme_override_font_sizes/font_size = 38
 text = "Daring (6x6)"
 
+[node name="Button" type="Button" parent="."]
+custom_minimum_size = Vector2(50, 50)
+offset_left = 449.0
+offset_top = 1130.0
+offset_right = 499.0
+offset_bottom = 1180.0
+disabled = true
+script = ExtResource("2_h7vfg")
+
 [connection signal="pressed" from="ButtonContainer/ButtonEasy" to="ButtonContainer" method="_on_button_easy_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonMedium" to="ButtonContainer" method="_on_button_medium_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonHard" to="ButtonContainer" method="_on_button_hard_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonDaring" to="ButtonContainer" method="_on_button_daring_pressed"]
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

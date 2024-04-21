@@ -15,17 +15,25 @@ func _ready():
 	# spawn child nodes
 	var cellWidth = boardWidth / gridSize
 	var cellHeight = boardHeight / gridSize
+	var gameCells = Game.currentGame.data
+	var length = len(gameCells)
+	var pickedCells: Array = []
 	for i in pow(gridSize, 2):
-		print("Creating new child " + str(i))
-		addNode(cellWidth, cellHeight, 30, str(i+1))
+		var randInt = randi_range(0, length-1)
+		while pickedCells.has(randInt):
+			randInt = randi_range(0, length-1)
+		var cell = gameCells[randInt]
+		pickedCells.push_back(randInt)
+		addNode(cellWidth, cellHeight, 30, "", cell.filename)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
-func addNode(width:int, height:int, fontSize:int, text:String, image:Texture2D = load("res://assets/blank.png")):
+func addNode(width:int, height:int, fontSize:int, text:String, image:String = "res://assets/blank.png"):
 	var square = BingoSquare.instantiate()
-	square.setState(width, height, fontSize, text, image)
+	var texture = load(image)
+	square.setState(width, height, fontSize, text, texture)
 	add_child(square)
 
 
