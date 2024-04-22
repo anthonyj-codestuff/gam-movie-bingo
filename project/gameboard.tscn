@@ -1,19 +1,24 @@
-[gd_scene load_steps=6 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=9 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 [ext_resource type="Texture2D" uid="uid://b873d5xkvrard" path="res://assets/logo-gam.png" id="1_e7x7v"]
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/button_up.png" id="2_5pfo7"]
 [ext_resource type="Texture2D" uid="uid://c2u4h0xjapwda" path="res://assets/button_down.png" id="3_bmiit"]
 [ext_resource type="Texture2D" uid="uid://ejw8qxexvet5" path="res://assets/button_hover.png" id="4_gwnj6"]
+[ext_resource type="Texture2D" uid="uid://5s0dfgcs3kkn" path="res://assets/button_knife.png" id="5_rrigm"]
+[ext_resource type="Texture2D" uid="uid://dqhmwfjriaoov" path="res://assets/button_knife_toggled.png" id="6_tamt4"]
+[ext_resource type="Texture2D" uid="uid://cuxcrhfvnxcfl" path="res://assets/button_knife_hover.png" id="7_8aodg"]
 
 [node name="VBoxContainer" type="VBoxContainer"]
 offset_right = 900.0
 offset_bottom = 1100.0
+mouse_filter = 2
 theme_override_constants/separation = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 custom_minimum_size = Vector2(2.08165e-12, 200)
 layout_mode = 2
+mouse_filter = 2
 theme_override_constants/separation = 0
 
 [node name="MarginContainer2" type="MarginContainer" parent="HBoxContainer"]
@@ -21,30 +26,31 @@ custom_minimum_size = Vector2(250, 2.08165e-12)
 layout_mode = 2
 size_flags_horizontal = 3
 mouse_filter = 2
-theme_override_constants/margin_left = 20
-theme_override_constants/margin_top = 0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 0
 theme_override_constants/margin_bottom = 0
 
-[node name="Header" type="TextureRect" parent="HBoxContainer/MarginContainer2"]
-custom_minimum_size = Vector2(2.08165e-12, 200)
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/MarginContainer2"]
 layout_mode = 2
-size_flags_horizontal = 3
-texture = ExtResource("1_e7x7v")
-expand_mode = 2
-stretch_mode = 5
+mouse_filter = 2
+theme_override_constants/separation = 0
 
-[node name="Box" type="MarginContainer" parent="HBoxContainer/MarginContainer2"]
-layout_mode = 2
-theme_override_constants/margin_top = 7
-
-[node name="Back" type="TextureButton" parent="HBoxContainer/MarginContainer2/Box"]
-custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
-layout_direction = 1
+[node name="Back" type="TextureButton" parent="HBoxContainer/MarginContainer2/VBoxContainer"]
+custom_minimum_size = Vector2(2.08165e-12, 30)
 layout_mode = 2
 texture_normal = ExtResource("2_5pfo7")
 texture_pressed = ExtResource("3_bmiit")
 texture_hover = ExtResource("4_gwnj6")
+ignore_texture_size = true
+
+[node name="Header" type="TextureRect" parent="HBoxContainer/MarginContainer2/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+texture = ExtResource("1_e7x7v")
+expand_mode = 2
+stretch_mode = 5
 
 [node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
 custom_minimum_size = Vector2(250, 2.08165e-12)
@@ -74,6 +80,25 @@ text = "SCORE"
 layout_mode = 2
 size_flags_vertical = 3
 
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureButton" type="TextureButton" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("5_rrigm")
+texture_pressed = ExtResource("6_tamt4")
+texture_hover = ExtResource("7_8aodg")
+texture_disabled = ExtResource("7_8aodg")
+
+[node name="Label" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "STRIKES"
+
+[node name="Container3" type="Container" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
 [node name="BoardBorder" type="MarginContainer" parent="."]
 layout_mode = 2
 size_flags_vertical = 3
@@ -90,4 +115,4 @@ theme_override_constants/v_separation = 0
 columns = 3
 script = ExtResource("1_2kbe3")
 
-[connection signal="pressed" from="HBoxContainer/MarginContainer2/Box/Back" to="BoardBorder/GameBoard" method="_on_back_pressed"]
+[connection signal="pressed" from="HBoxContainer/MarginContainer2/VBoxContainer/Back" to="BoardBorder/GameBoard" method="_on_back_pressed"]
