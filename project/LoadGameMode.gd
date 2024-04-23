@@ -11,7 +11,7 @@ func _ready():
 	if FileAccess.file_exists(GameModes[name]):
 		var jsonText = FileAccess.get_file_as_string(GameModes[name])
 		var data = JSON.parse_string(jsonText)
-		Game.currentGame = data
+		Game.currentGameData = data
 	pass # Replace with function body.
 
 
@@ -27,8 +27,8 @@ func loadGameMode(name: String):
 	if FileAccess.file_exists(GameModes[name]):
 		var jsonText = FileAccess.get_file_as_string(GameModes[name])
 		var data = JSON.parse_string(jsonText)
-		Game.currentGame = data
-		print(Game.currentGame.title)
+		Game.currentGameData = data
+		print(Game.currentGameData.title)
 		var dict: Dictionary = {}
 		for e in data.data:
 			if len(e.subCategories) > 0 and dict.has(e.subCategories[0]):

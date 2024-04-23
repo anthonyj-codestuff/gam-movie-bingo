@@ -13,29 +13,34 @@ func _ready():
 	boardHeight = size.y
 	
 	# spawn child nodes
-	var cellWidth = boardWidth / gridSize
-	var cellHeight = boardHeight / gridSize
-	var gameCells = Game.currentGame.data
+	var gameCells = Game.getGameSquareData()
 	var length = len(gameCells)
-	var pickedCells: Array = []
+	# double-check that we don't need to clear this
+	Game.currentBoard = []
 	for i in pow(gridSize, 2):
 		var randInt = randi_range(0, length-1)
-		while pickedCells.has(randInt):
+		while Game.currentBoard.has(randInt):
 			randInt = randi_range(0, length-1)
 		var cell = gameCells[randInt]
-		pickedCells.push_back(randInt)
-		addNode(cellWidth, cellHeight, 30, "", cell.filename)
+		Game.currentBoard.push_back(randInt)
+		addNode(30, "", cell.filename)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
-func addNode(width:int, height:int, fontSize:int, text:String, image:String = "res://assets/blank.png"):
+func addNode(fontSize:int, text:String, image:String = "res://assets/blank.png"):
 	var square = BingoSquare.instantiate()
 	var texture = load(image)
-	square.setState(width, height, fontSize, text, texture)
+	square.setState(fontSize, text, texture)
 	add_child(square)
 
 
 func _on_back_pressed():
+	Game.resetBoard()
 	get_tree().change_scene_to_file("res://menu.tscn")
+
+
+func _on_knife_button_toggled(buttonPressed):
+	Game.pruneMode = buttonPressed
+	print(buttonPressed)

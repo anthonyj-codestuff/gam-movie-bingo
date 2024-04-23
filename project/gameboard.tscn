@@ -5,9 +5,9 @@
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/button_up.png" id="2_5pfo7"]
 [ext_resource type="Texture2D" uid="uid://c2u4h0xjapwda" path="res://assets/button_down.png" id="3_bmiit"]
 [ext_resource type="Texture2D" uid="uid://ejw8qxexvet5" path="res://assets/button_hover.png" id="4_gwnj6"]
-[ext_resource type="Texture2D" uid="uid://5s0dfgcs3kkn" path="res://assets/button_knife.png" id="5_rrigm"]
-[ext_resource type="Texture2D" uid="uid://dqhmwfjriaoov" path="res://assets/button_knife_toggled.png" id="6_tamt4"]
-[ext_resource type="Texture2D" uid="uid://cuxcrhfvnxcfl" path="res://assets/button_knife_hover.png" id="7_8aodg"]
+[ext_resource type="Texture2D" uid="uid://byqk1kfw1wlvj" path="res://assets/button_knife.png" id="5_rrigm"]
+[ext_resource type="Texture2D" uid="uid://dslj43xtt1by3" path="res://assets/button_knife_toggled.png" id="6_tamt4"]
+[ext_resource type="Texture2D" uid="uid://50a1eciogo3b" path="res://assets/button_knife_hover.png" id="7_8aodg"]
 
 [node name="VBoxContainer" type="VBoxContainer"]
 offset_right = 900.0
@@ -83,13 +83,15 @@ size_flags_vertical = 3
 [node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="TextureButton" type="TextureButton" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="KnifeButton" type="TextureButton" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(52, 52)
 layout_mode = 2
 toggle_mode = true
 texture_normal = ExtResource("5_rrigm")
 texture_pressed = ExtResource("6_tamt4")
 texture_hover = ExtResource("7_8aodg")
 texture_disabled = ExtResource("7_8aodg")
+stretch_mode = 5
 
 [node name="Label" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
@@ -116,3 +118,4 @@ columns = 3
 script = ExtResource("1_2kbe3")
 
 [connection signal="pressed" from="HBoxContainer/MarginContainer2/VBoxContainer/Back" to="BoardBorder/GameBoard" method="_on_back_pressed"]
+[connection signal="toggled" from="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/KnifeButton" to="BoardBorder/GameBoard" method="_on_knife_button_toggled"]
