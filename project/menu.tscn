@@ -1,5 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://60tda85jp7ru"]
+[gd_scene load_steps=4 format=3 uid="uid://60tda85jp7ru"]
 
+[ext_resource type="Theme" uid="uid://bc44ulks4c077" path="res://BingoTheme.tres" id="2_1jnui"]
 [ext_resource type="Script" path="res://LoadGameMode.gd" id="2_h7vfg"]
 [ext_resource type="Script" path="res://ButtonContainer.gd" id="2_y0ubd"]
 
@@ -16,10 +17,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -11.0
-offset_top = 441.0
-offset_right = 514.0
-offset_bottom = 851.0
+offset_left = -8.0
+offset_top = 444.0
+offset_right = 517.0
+offset_bottom = 854.0
 grow_horizontal = 2
 grow_vertical = 2
 rotation = -0.436332
@@ -42,31 +43,24 @@ alignment = 1
 script = ExtResource("2_y0ubd")
 
 [node name="ButtonEasy" type="Button" parent="ButtonContainer"]
-modulate = Color(0.305882, 0.305882, 0.305882, 1)
-self_modulate = Color(0.305882, 0.305882, 0.305882, 1)
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(0.533333, 0.533333, 0.533333, 1)
+theme = ExtResource("2_1jnui")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
 text = "Easy (3x3)"
-
-[node name="Label" type="Label" parent="ButtonContainer/ButtonEasy"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
 
 [node name="Control" type="Control" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
 [node name="ButtonMedium" type="Button" parent="ButtonContainer"]
-modulate = Color(0.305882, 0.305882, 0.305882, 1)
-self_modulate = Color(0.305882, 0.305882, 0.305882, 1)
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(0.533333, 0.533333, 0.533333, 1)
+theme = ExtResource("2_1jnui")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
 text = "Medium (4x4)"
 
@@ -75,12 +69,11 @@ layout_mode = 2
 size_flags_vertical = 3
 
 [node name="ButtonHard" type="Button" parent="ButtonContainer"]
-modulate = Color(0.305882, 0.305882, 0.305882, 1)
-self_modulate = Color(0.305882, 0.305882, 0.305882, 1)
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(0.533333, 0.533333, 0.533333, 1)
+theme = ExtResource("2_1jnui")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
 text = "Hard (5x5)"
 
@@ -89,16 +82,15 @@ layout_mode = 2
 size_flags_vertical = 3
 
 [node name="ButtonDaring" type="Button" parent="ButtonContainer"]
-modulate = Color(0.305882, 0.305882, 0.305882, 1)
-self_modulate = Color(0.305882, 0.305882, 0.305882, 1)
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(0.533333, 0.533333, 0.533333, 1)
+theme = ExtResource("2_1jnui")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
 text = "Daring (6x6)"
 
-[node name="Button" type="Button" parent="."]
+[node name="ButtonLoadMode" type="Button" parent="."]
 custom_minimum_size = Vector2(50, 50)
 offset_left = 449.0
 offset_top = 1130.0
@@ -111,4 +103,4 @@ script = ExtResource("2_h7vfg")
 [connection signal="pressed" from="ButtonContainer/ButtonMedium" to="ButtonContainer" method="_on_button_medium_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonHard" to="ButtonContainer" method="_on_button_hard_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonDaring" to="ButtonContainer" method="_on_button_daring_pressed"]
-[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="ButtonLoadMode" to="ButtonLoadMode" method="_on_pressed"]
