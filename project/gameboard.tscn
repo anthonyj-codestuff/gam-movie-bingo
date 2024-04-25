@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=12 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 [ext_resource type="Texture2D" uid="uid://b873d5xkvrard" path="res://assets/logo-gam.png" id="1_e7x7v"]
@@ -9,19 +9,49 @@
 [ext_resource type="Texture2D" uid="uid://dslj43xtt1by3" path="res://assets/button_knife_toggled.png" id="6_tamt4"]
 [ext_resource type="Texture2D" uid="uid://50a1eciogo3b" path="res://assets/button_knife_hover.png" id="7_8aodg"]
 
-[node name="VBoxContainer" type="VBoxContainer"]
+[sub_resource type="Theme" id="Theme_tvs64"]
+
+[sub_resource type="Gradient" id="Gradient_bxuew"]
+offsets = PackedFloat32Array(0, 0.998435)
+colors = PackedColorArray(0.976471, 1, 0.596078, 1, 0.94902, 0.94902, 0.94902, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_p7vrv"]
+gradient = SubResource("Gradient_bxuew")
+fill_from = Vector2(0, 0.8)
+fill_to = Vector2(0, 1)
+metadata/_snap_enabled = true
+
+[node name="Control" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = SubResource("Theme_tvs64")
+color = Color(0.94902, 0.94902, 0.94902, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
 offset_right = 900.0
 offset_bottom = 1100.0
 mouse_filter = 2
 theme_override_constants/separation = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="Gradient" type="TextureRect" parent="VBoxContainer"]
 custom_minimum_size = Vector2(2.08165e-12, 200)
 layout_mode = 2
+texture = SubResource("GradientTexture2D_p7vrv")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Gradient"]
+custom_minimum_size = Vector2(2.08165e-12, 200)
+layout_mode = 2
+offset_right = 900.0
+offset_bottom = 200.0
 mouse_filter = 2
 theme_override_constants/separation = 0
 
-[node name="MarginContainer2" type="MarginContainer" parent="HBoxContainer"]
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/Gradient/HBoxContainer"]
 custom_minimum_size = Vector2(250, 2.08165e-12)
 layout_mode = 2
 size_flags_horizontal = 3
@@ -31,12 +61,12 @@ theme_override_constants/margin_top = 5
 theme_override_constants/margin_right = 0
 theme_override_constants/margin_bottom = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/MarginContainer2"]
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer2"]
 layout_mode = 2
 mouse_filter = 2
 theme_override_constants/separation = 0
 
-[node name="Back" type="TextureButton" parent="HBoxContainer/MarginContainer2/VBoxContainer"]
+[node name="Back" type="TextureButton" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer2/VBoxContainer"]
 custom_minimum_size = Vector2(2.08165e-12, 30)
 layout_mode = 2
 texture_normal = ExtResource("2_5pfo7")
@@ -44,7 +74,7 @@ texture_pressed = ExtResource("3_bmiit")
 texture_hover = ExtResource("4_gwnj6")
 ignore_texture_size = true
 
-[node name="Header" type="TextureRect" parent="HBoxContainer/MarginContainer2/VBoxContainer"]
+[node name="Header" type="TextureRect" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer2/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 mouse_filter = 2
@@ -52,38 +82,52 @@ texture = ExtResource("1_e7x7v")
 expand_mode = 2
 stretch_mode = 5
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Gradient/HBoxContainer"]
 custom_minimum_size = Vector2(250, 2.08165e-12)
 layout_mode = 2
-theme_override_constants/margin_left = 20
+theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 0
 theme_override_constants/margin_right = 0
 theme_override_constants/margin_bottom = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer"]
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="Container" type="Container" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Container" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "CATEGORY"
+theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
+theme_override_colors/font_shadow_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 7
+text = "CATEGORY:"
 
-[node name="Label2" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Label2" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "SCORE"
+theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
+theme_override_colors/font_shadow_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 7
+text = "SCORE:"
 
-[node name="Container2" type="Container" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Container2" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 
-[node name="KnifeButton" type="TextureButton" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="KnifeButton" type="TextureButton" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(52, 52)
 layout_mode = 2
 toggle_mode = true
@@ -93,15 +137,22 @@ texture_hover = ExtResource("7_8aodg")
 texture_disabled = ExtResource("7_8aodg")
 stretch_mode = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "STRIKES"
+theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
+theme_override_colors/font_shadow_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 7
+text = "STRIKES:"
 
-[node name="Container3" type="Container" parent="HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Container3" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="BoardBorder" type="MarginContainer" parent="."]
+[node name="BoardBorder" type="MarginContainer" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/margin_left = 20
@@ -109,7 +160,7 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="GameBoard" type="GridContainer" parent="BoardBorder"]
+[node name="GameBoard" type="GridContainer" parent="VBoxContainer/BoardBorder"]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/h_separation = 0
@@ -117,5 +168,5 @@ theme_override_constants/v_separation = 0
 columns = 3
 script = ExtResource("1_2kbe3")
 
-[connection signal="pressed" from="HBoxContainer/MarginContainer2/VBoxContainer/Back" to="BoardBorder/GameBoard" method="_on_back_pressed"]
-[connection signal="toggled" from="HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/KnifeButton" to="BoardBorder/GameBoard" method="_on_knife_button_toggled"]
+[connection signal="pressed" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer2/VBoxContainer/Back" to="VBoxContainer/BoardBorder/GameBoard" method="_on_back_pressed"]
+[connection signal="toggled" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/HBoxContainer/KnifeButton" to="VBoxContainer/BoardBorder/GameBoard" method="_on_knife_button_toggled"]
