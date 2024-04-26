@@ -1,15 +1,40 @@
-[gd_scene load_steps=4 format=3 uid="uid://60tda85jp7ru"]
+[gd_scene load_steps=11 format=3 uid="uid://60tda85jp7ru"]
 
 [ext_resource type="Theme" uid="uid://bc44ulks4c077" path="res://BingoTheme.tres" id="2_1jnui"]
 [ext_resource type="Script" path="res://LoadGameMode.gd" id="2_h7vfg"]
 [ext_resource type="Script" path="res://ButtonContainer.gd" id="2_y0ubd"]
+[ext_resource type="Script" path="res://DevlogScroll.gd" id="4_3oyjt"]
+[ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="4_lx8gy"]
+[ext_resource type="FontFile" uid="uid://cxriyg2r0coon" path="res://assets/CantedComic Bold.otf" id="6_n3l6j"]
+
+[sub_resource type="Gradient" id="Gradient_17dgd"]
+colors = PackedColorArray(1, 1, 1, 1, 0.976471, 1, 0.596078, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_1egm1"]
+gradient = SubResource("Gradient_17dgd")
+fill_from = Vector2(0.0747863, 0.615385)
+fill_to = Vector2(0.619658, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ijflt"]
+content_margin_left = 10.0
+content_margin_top = 7.0
+bg_color = Color(0, 0, 0, 0.54902)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_color = Color(0, 0, 0, 0.780392)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+
+[sub_resource type="Theme" id="Theme_xwnt5"]
+ScrollContainer/styles/panel = SubResource("StyleBoxFlat_ijflt")
 
 [node name="menu" type="Node2D"]
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="TextureRect" parent="."]
 offset_right = 900.0
 offset_bottom = 1100.0
-color = Color(1, 0.996078, 0.823529, 1)
+texture = SubResource("GradientTexture2D_1egm1")
 
 [node name="BingoTitleLabel" type="RichTextLabel" parent="."]
 anchors_preset = 8
@@ -17,10 +42,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -8.0
-offset_top = 444.0
+offset_left = -8.00001
+offset_top = 236.0
 offset_right = 517.0
-offset_bottom = 854.0
+offset_bottom = 646.0
 grow_horizontal = 2
 grow_vertical = 2
 rotation = -0.436332
@@ -98,6 +123,50 @@ offset_right = 499.0
 offset_bottom = 1180.0
 disabled = true
 script = ExtResource("2_h7vfg")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_left = 10.0
+offset_top = 903.0
+offset_right = 422.0
+offset_bottom = 966.0
+theme = SubResource("Theme_xwnt5")
+scroll_vertical = 90
+script = ExtResource("4_3oyjt")
+
+[node name="Node" type="Label" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4_lx8gy")
+theme_override_font_sizes/font_size = 16
+text = "0.0.1 Basic bingo game
+0.0.2 Added configurable board size
+0.1.0 Added images to board
+0.1.1 Fixed image scaling
+0.1.2 Added back button to board
+0.1.3 Redesigned menu page
+0.1.4 Prettied up the board layout
+0.1.5 Added (disabled) pruning feature for testing
+0.1.6 Added artist credit and this box"
+autowrap_mode = 3
+
+[node name="Credits" type="Label" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 966.0
+offset_right = 312.0
+offset_bottom = 1090.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_n3l6j")
+theme_override_font_sizes/font_size = 20
+text = "Art by
+@madrid_toons
+madridtoons.bsky.social
+Game by @badgertide"
 
 [connection signal="pressed" from="ButtonContainer/ButtonEasy" to="ButtonContainer" method="_on_button_easy_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonMedium" to="ButtonContainer" method="_on_button_medium_pressed"]
