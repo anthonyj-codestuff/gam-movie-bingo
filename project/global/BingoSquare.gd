@@ -24,8 +24,12 @@ func setState(fontSize:int, text:String, image:Texture2D):
 	textContents = text
 
 func _on_click_button_pressed():
-	if Game.pruneMode:
+	if Game.pruneMode and Game.prunesRemaining > 0:
 		pruneSquare()
+		handleSquarePruned()
+	elif Game.pruneMode:
+		Game.disablePruning()
+		toggleTick()
 	else:
 		toggleTick()
 
@@ -45,3 +49,15 @@ func pruneSquare():
 	var image = load(cell.filename) if len(cell.filename) > 0 else null
 	var text = "" if cell.ignoreTitle else cell.title
 	self.setState(30, text, image)
+
+func handleSquarePruned():
+	if Game.unlimitedPrunes:
+		pass
+	else:
+		Game.prunesRemaining -= 1
+		if Game.prunesRemaining == 0:
+			Game.disablePruning()
+		elif Game.prunesRemaining < 0:
+			Game.disablePruning()
+			print("Warn: Prunes less than 0, setting to zero")
+			Game.prunesRemaining = 0

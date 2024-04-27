@@ -16,6 +16,10 @@ var currentBoard: Array = []
 # if enabled, clicking on a square will remove it from the board
 var pruneMode = false
 var pruneModeDisabled = false
+const unlimitedPrunes = false
+
+# number of times the user is allowed to remove a square from the board
+var prunesRemaining = 3
 
 func getGameSquareData() -> Array:
 	if currentGameData.has("data"):
@@ -28,6 +32,8 @@ func resetBoard():
 	currentGameData = {}
 	currentBoard = []
 	pruneMode = false
+	pruneModeDisabled = false
+	prunesRemaining = 3
 	
 func disablePruning():
 	pruneMode = false
