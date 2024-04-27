@@ -1,14 +1,17 @@
-[gd_scene load_steps=13 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=16 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 [ext_resource type="Texture2D" uid="uid://b873d5xkvrard" path="res://assets/logo-gam.png" id="1_e7x7v"]
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/button_up.png" id="2_5pfo7"]
 [ext_resource type="Texture2D" uid="uid://c2u4h0xjapwda" path="res://assets/button_down.png" id="3_bmiit"]
 [ext_resource type="Texture2D" uid="uid://ejw8qxexvet5" path="res://assets/button_hover.png" id="4_gwnj6"]
+[ext_resource type="Script" path="res://CategoryLabel.gd" id="5_2ngvw"]
 [ext_resource type="Texture2D" uid="uid://byqk1kfw1wlvj" path="res://assets/button_knife.png" id="5_rrigm"]
 [ext_resource type="Texture2D" uid="uid://dslj43xtt1by3" path="res://assets/button_knife_toggled.png" id="6_tamt4"]
 [ext_resource type="Texture2D" uid="uid://50a1eciogo3b" path="res://assets/button_knife_hover.png" id="7_8aodg"]
 [ext_resource type="Texture2D" uid="uid://c4o1nsjvv27ks" path="res://assets/button_knife_disabled.png" id="8_73io6"]
+[ext_resource type="Script" path="res://KnifeButton.gd" id="9_psfg5"]
+[ext_resource type="Script" path="res://StrikesLabel.gd" id="10_o27my"]
 
 [sub_resource type="Theme" id="Theme_tvs64"]
 
@@ -99,26 +102,15 @@ theme_override_constants/separation = 0
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Label" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="CategoryLabel" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
-theme_override_colors/font_shadow_color = Color(0.5, 0.5, 0.5, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/shadow_offset_x = 0
-theme_override_constants/shadow_offset_y = 0
-theme_override_constants/outline_size = 3
-theme_override_constants/shadow_outline_size = 7
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "CATEGORY: N/A"
+script = ExtResource("5_2ngvw")
 
-[node name="Label2" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="ScoreLabel" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
-theme_override_colors/font_shadow_color = Color(0.5, 0.5, 0.5, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/shadow_offset_x = 0
-theme_override_constants/shadow_offset_y = 0
-theme_override_constants/outline_size = 3
-theme_override_constants/shadow_outline_size = 7
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "SCORE: N/A"
 
 [node name="Spacer" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
@@ -131,24 +123,19 @@ layout_mode = 2
 [node name="KnifeButton" type="TextureButton" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/StrikesBox"]
 custom_minimum_size = Vector2(52, 52)
 layout_mode = 2
-disabled = true
 toggle_mode = true
 texture_normal = ExtResource("5_rrigm")
 texture_pressed = ExtResource("6_tamt4")
 texture_hover = ExtResource("7_8aodg")
 texture_disabled = ExtResource("8_73io6")
 stretch_mode = 5
+script = ExtResource("9_psfg5")
 
-[node name="Label" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/StrikesBox"]
+[node name="StrikesLabel" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/StrikesBox"]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
-theme_override_colors/font_shadow_color = Color(0.5, 0.5, 0.5, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/shadow_offset_x = 0
-theme_override_constants/shadow_offset_y = 0
-theme_override_constants/outline_size = 3
-theme_override_constants/shadow_outline_size = 7
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "STRIKES: N/A"
+script = ExtResource("10_o27my")
 
 [node name="Container3" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
