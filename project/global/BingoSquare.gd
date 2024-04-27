@@ -30,13 +30,18 @@ func setState(fontSize:int, text:String, score:int, image:Texture2D):
 	textContents = text
 
 func _on_click_button_pressed():
+	# if user has turned on pruning, prune square
 	if Game.pruneMode and Game.prunesRemaining > 0:
 		pruneSquare()
 		handleSquarePruned()
+	# if user has no prunes left, disable pruning and tick
+	# TODO I don't think this does anything, find out why
 	elif Game.pruneMode:
 		Game.disablePruning()
 		toggleTick()
+	# remove the pruning option if the user ticks a box
 	else:
+		Game.disablePruning()
 		toggleTick()
 
 func toggleTick():
