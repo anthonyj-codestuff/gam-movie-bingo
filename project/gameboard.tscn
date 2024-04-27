@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=17 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/images/button_up.png" id="1_k63jo"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://b873d5xkvrard" path="res://assets/images/logo-gam.png" id="4_bggnd"]
 [ext_resource type="Script" path="res://CategoryLabel.gd" id="5_2ngvw"]
 [ext_resource type="Texture2D" uid="uid://byqk1kfw1wlvj" path="res://assets/images/button_knife.png" id="6_58wk5"]
+[ext_resource type="Script" path="res://ScoreLabel.gd" id="6_pq5yg"]
 [ext_resource type="Texture2D" uid="uid://dslj43xtt1by3" path="res://assets/images/button_knife_toggled.png" id="7_1d0rf"]
 [ext_resource type="Texture2D" uid="uid://50a1eciogo3b" path="res://assets/images/button_knife_hover.png" id="8_q0vx2"]
 [ext_resource type="Texture2D" uid="uid://c4o1nsjvv27ks" path="res://assets/images/button_knife_disabled.png" id="9_65dbf"]
@@ -37,6 +38,7 @@ theme = SubResource("Theme_tvs64")
 color = Color(0.94902, 0.94902, 0.94902, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
 offset_right = 900.0
 offset_bottom = 1100.0
 mouse_filter = 2
@@ -112,6 +114,7 @@ script = ExtResource("5_2ngvw")
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "SCORE: N/A"
+script = ExtResource("6_pq5yg")
 
 [node name="Spacer" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2

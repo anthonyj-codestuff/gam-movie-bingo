@@ -21,6 +21,8 @@ const unlimitedPrunes = false
 # number of times the user is allowed to remove a square from the board
 var prunesRemaining = 3
 
+var currentScore = 0
+
 func getGameSquareData() -> Array:
 	if currentGameData.has("data"):
 		return currentGameData.data

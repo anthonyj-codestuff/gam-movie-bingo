@@ -154,7 +154,8 @@ text = "0.0.1 Basic bingo game
 0.1.5 Added (disabled) pruning feature for testing
 0.1.6 Added artist credit and this box
 0.2.0 New feature, board pruning available before game start
-0.2.1 Tweaked menu font"
+0.2.1 Tweaked menu font
+0.3.0 New feature, scoring system"
 autowrap_mode = 3
 
 [node name="Credits" type="Label" parent="."]

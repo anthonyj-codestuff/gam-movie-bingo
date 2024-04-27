@@ -1,6 +1,7 @@
 extends MarginContainer
 
 var textContents:String
+var pointValue:int
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -17,10 +18,15 @@ func _process(delta):
 		textLabel.add_theme_font_size_override("normal_font_size", newFontSize)
 		print(str(textLabel["theme_override_font_sizes/normal_font_size"]) + " -> " + str(newFontSize))
 
-func setState(fontSize:int, text:String, image:Texture2D):
+func getPointValue()->int:
+	return pointValue
+
+func setState(fontSize:int, text:String, score:int, image:Texture2D):
+	pointValue = score
 	get_node("VBoxContainer/RichTextLabel").text = "[center]" + text + "[/center]"
 	get_node("VBoxContainer/RichTextLabel").add_theme_font_size_override("font_size", fontSize)
 	get_node("TextureRect").set_texture(image)
+	get_node("MarginContainer/PointsLabel").text = str(score)
 	textContents = text
 
 func _on_click_button_pressed():
@@ -48,7 +54,8 @@ func pruneSquare():
 	# set new properties 
 	var image = load(cell.filename) if len(cell.filename) > 0 else null
 	var text = "" if cell.ignoreTitle else cell.title
-	self.setState(30, text, image)
+	var score = cell.rarity
+	self.setState(30, text, score, image)
 
 func handleSquarePruned():
 	if Game.unlimitedPrunes:

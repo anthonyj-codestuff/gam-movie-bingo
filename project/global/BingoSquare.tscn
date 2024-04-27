@@ -1,12 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://crhlnby7toogc"]
+[gd_scene load_steps=8 format=3 uid="uid://crhlnby7toogc"]
 
 [ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
 [ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/images/tick.png" id="2_vwiis"]
 [ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="3_1md4q"]
-[ext_resource type="FontFile" path="res://assets/CantedComic Bold.otf" id="3_2o078"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7drt5"]
-bg_color = Color(1, 0.152941, 0.792157, 1)
 draw_center = false
 border_width_left = 2
 border_width_top = 2
@@ -16,6 +14,15 @@ border_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Theme" id="Theme_b0wqa"]
 Panel/styles/panel = SubResource("StyleBoxFlat_7drt5")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p6in6"]
+bg_color = Color(1, 1, 1, 1)
+border_width_top = 2
+border_width_right = 2
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Theme" id="Theme_sv6oq"]
+Panel/styles/panel = SubResource("StyleBoxFlat_p6in6")
 
 [node name="BingoSquare" type="MarginContainer"]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
@@ -55,13 +62,28 @@ alignment = 1
 [node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_fonts/normal_font = ExtResource("3_2o078")
 theme_override_font_sizes/normal_font_size = 25
 bbcode_enabled = true
 text = "[center]TEXT THAT STAYS CENTERED[/center]"
 fit_content = true
 scroll_active = false
 tab_size = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme = SubResource("Theme_sv6oq")
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+
+[node name="PointsLabel" type="Label" parent="MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "0"
+horizontal_alignment = 1
 
 [node name="ClickButton" type="Button" parent="."]
 layout_mode = 2

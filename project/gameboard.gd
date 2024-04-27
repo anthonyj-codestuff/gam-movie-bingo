@@ -23,16 +23,20 @@ func _ready():
 			randInt = randi_range(0, length-1)
 		var cell = gameCells[randInt]
 		Game.currentBoard.push_back(randInt)
-		addNode(30, "", cell.filename)
+		addNode(30, "", cell.rarity, cell.filename)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	var total = 0
+	for i in get_children():
+		if i.get_node("Tick").visible:
+			total += i.getPointValue()
+	Game.currentScore = total
 
-func addNode(fontSize:int, text:String, image:String = "res://assets/blank.png"):
+func addNode(fontSize:int, text:String, score:int=0, image:String="res://assets/blank.png"):
 	var square = BingoSquare.instantiate()
 	var texture = load(image)
-	square.setState(fontSize, text, texture)
+	square.setState(fontSize, text, score, texture)
 	add_child(square)
 
 
