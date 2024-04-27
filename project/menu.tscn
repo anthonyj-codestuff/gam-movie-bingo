@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://ButtonContainer.gd" id="2_y0ubd"]
 [ext_resource type="Script" path="res://DevlogScroll.gd" id="4_3oyjt"]
 [ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="4_lx8gy"]
-[ext_resource type="FontFile" uid="uid://cxriyg2r0coon" path="res://assets/CantedComic Bold.otf" id="6_n3l6j"]
+[ext_resource type="FontFile" uid="uid://b8s1afwbggr2j" path="res://assets/fonts/CantedComic Bold.otf" id="6_m4q03"]
 
 [sub_resource type="Gradient" id="Gradient_17dgd"]
 colors = PackedColorArray(1, 1, 1, 1, 0.976471, 1, 0.596078, 1)
@@ -161,7 +161,7 @@ offset_right = 312.0
 offset_bottom = 1090.0
 grow_vertical = 0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_n3l6j")
+theme_override_fonts/font = ExtResource("6_m4q03")
 theme_override_font_sizes/font_size = 20
 text = "Art by
 @madrid_toons

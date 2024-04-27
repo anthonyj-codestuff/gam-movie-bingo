@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://crhlnby7toogc"]
 
 [ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
-[ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/tick.png" id="2_q0j11"]
-[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/blank.png" id="2_rxh5q"]
-[ext_resource type="FontFile" uid="uid://cxriyg2r0coon" path="res://assets/CantedComic Bold.otf" id="3_2o078"]
+[ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/images/tick.png" id="2_vwiis"]
+[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="3_1md4q"]
+[ext_resource type="FontFile" path="res://assets/CantedComic Bold.otf" id="3_2o078"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7drt5"]
 bg_color = Color(1, 0.152941, 0.792157, 1)
@@ -39,13 +39,13 @@ visible = false
 z_index = 1
 z_as_relative = false
 layout_mode = 2
-texture = ExtResource("2_q0j11")
+texture = ExtResource("2_vwiis")
 expand_mode = 4
 
 [node name="TextureRect" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 layout_mode = 2
-texture = ExtResource("2_rxh5q")
+texture = ExtResource("3_1md4q")
 expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
