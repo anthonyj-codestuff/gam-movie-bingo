@@ -14,6 +14,10 @@ func _process(delta):
 		var newFontSize = textLabel["theme_override_font_sizes/normal_font_size"] - 1
 		textLabel.add_theme_font_size_override("normal_font_size", newFontSize)
 		print(str(textLabel["theme_override_font_sizes/normal_font_size"]) + " -> " + str(newFontSize))
+	if Game.pruneMode:
+		get_node("TextureRect").material.set_shader_parameter("active", true)
+	else:
+		get_node("TextureRect").material.set_shader_parameter("active", false)
 
 func getPointValue()->int:
 	return pointValue

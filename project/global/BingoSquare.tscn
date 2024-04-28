@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://crhlnby7toogc"]
+[gd_scene load_steps=10 format=3 uid="uid://crhlnby7toogc"]
 
 [ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
 [ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/images/tick.png" id="2_vwiis"]
-[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="3_1md4q"]
+[ext_resource type="Shader" path="res://assets/shaders/greyscale.gdshader" id="3_gv28n"]
+[ext_resource type="Texture2D" uid="uid://bwfwcw5kv3l2h" path="res://assets/images/squares/bad-whiskey-drinking.png" id="4_v4ia6"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7drt5"]
 draw_center = false
@@ -14,6 +15,11 @@ border_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Theme" id="Theme_b0wqa"]
 Panel/styles/panel = SubResource("StyleBoxFlat_7drt5")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fj8q8"]
+shader = ExtResource("3_gv28n")
+shader_parameter/intensity = 1.0
+shader_parameter/active = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p6in6"]
 bg_color = Color(1, 1, 1, 1)
@@ -50,9 +56,10 @@ texture = ExtResource("2_vwiis")
 expand_mode = 4
 
 [node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_fj8q8")
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 layout_mode = 2
-texture = ExtResource("3_1md4q")
+texture = ExtResource("4_v4ia6")
 expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]

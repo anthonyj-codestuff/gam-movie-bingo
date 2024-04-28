@@ -157,7 +157,8 @@ text = "0.0.1 Basic bingo game
 0.2.1 Tweaked menu font
 0.3.0 New feature, scoring system
 0.3.1 bugfix, disabled pruning when ticking a box
-0.3.2 UI improvement, retooled prune button for readability"
+0.3.2 UI improvement, retooled prune button for readability
+0.4.0 added shader for easier readability during pruning"
 autowrap_mode = 3
 
 [node name="Credits" type="Label" parent="."]

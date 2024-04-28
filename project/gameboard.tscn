@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=18 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Script" path="res://gameboard.gd" id="1_2kbe3"]
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/images/button_up.png" id="1_k63jo"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://deqa1b6et73te" path="res://assets/images/color_button_red_down.png" id="8_xmisu"]
 [ext_resource type="Script" path="res://RedButton.gd" id="9_aaf50"]
 [ext_resource type="Script" path="res://StrikesLabel.gd" id="10_o27my"]
+[ext_resource type="Script" path="res://SpacerLabel.gd" id="13_menoa"]
 
 [sub_resource type="Theme" id="Theme_tvs64"]
 
@@ -156,9 +157,12 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "STRIKES: N/A"
 script = ExtResource("10_o27my")
 
-[node name="Spacer3" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="SpacerLabel" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+modulate = Color(0.74902, 0, 0, 1)
 layout_mode = 2
 size_flags_vertical = 3
+text = "You may strike up to X tiles"
+script = ExtResource("13_menoa")
 
 [node name="BoardBorder" type="MarginContainer" parent="VBoxContainer"]
 layout_mode = 2
