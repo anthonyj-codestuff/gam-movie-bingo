@@ -129,10 +129,10 @@ disabled = true
 script = ExtResource("2_h7vfg")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
-offset_left = 10.0
-offset_top = 903.0
-offset_right = 422.0
-offset_bottom = 966.0
+offset_left = 327.0
+offset_top = 1029.0
+offset_right = 739.0
+offset_bottom = 1092.0
 theme = SubResource("Theme_xwnt5")
 scroll_vertical = 40
 script = ExtResource("4_3oyjt")

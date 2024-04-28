@@ -5,7 +5,6 @@ var gridSize: int = Game.gridSize
 var boardWidth: int
 var boardHeight: int
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	# set board parameters
 	columns = gridSize
@@ -25,7 +24,6 @@ func _ready():
 		Game.currentBoard.push_back(randInt)
 		addNode(30, "", cell.rarity, cell.filename)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	var total = 0
 	for i in get_children():
@@ -43,8 +41,3 @@ func addNode(fontSize:int, text:String, score:int=0, image:String="res://assets/
 func _on_back_pressed():
 	Game.resetBoard()
 	get_tree().change_scene_to_file("res://menu.tscn")
-
-
-func _on_knife_button_toggled(buttonPressed):
-	Game.pruneMode = buttonPressed
-	print(buttonPressed)

@@ -8,10 +8,10 @@
 [ext_resource type="Script" path="res://CategoryLabel.gd" id="5_2ngvw"]
 [ext_resource type="Texture2D" uid="uid://byqk1kfw1wlvj" path="res://assets/images/button_knife.png" id="6_58wk5"]
 [ext_resource type="Script" path="res://ScoreLabel.gd" id="6_pq5yg"]
-[ext_resource type="Texture2D" uid="uid://dslj43xtt1by3" path="res://assets/images/button_knife_toggled.png" id="7_1d0rf"]
-[ext_resource type="Texture2D" uid="uid://50a1eciogo3b" path="res://assets/images/button_knife_hover.png" id="8_q0vx2"]
-[ext_resource type="Texture2D" uid="uid://c4o1nsjvv27ks" path="res://assets/images/button_knife_disabled.png" id="9_65dbf"]
-[ext_resource type="Script" path="res://KnifeButton.gd" id="9_psfg5"]
+[ext_resource type="Script" path="res://MarginButtonContainer.gd" id="7_il55h"]
+[ext_resource type="Texture2D" uid="uid://b2x1wdf1a4e72" path="res://assets/images/color_button_grey_up.png" id="7_yhglg"]
+[ext_resource type="Texture2D" uid="uid://deqa1b6et73te" path="res://assets/images/color_button_red_down.png" id="8_xmisu"]
+[ext_resource type="Script" path="res://RedButton.gd" id="9_aaf50"]
 [ext_resource type="Script" path="res://StrikesLabel.gd" id="10_o27my"]
 
 [sub_resource type="Theme" id="Theme_tvs64"]
@@ -100,7 +100,7 @@ theme_override_constants/margin_bottom = 0
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="Spacer2" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Spacer1" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
@@ -116,31 +116,42 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "SCORE: N/A"
 script = ExtResource("6_pq5yg")
 
-[node name="Spacer" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Spacer2" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="StrikesBox" type="HBoxContainer" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="MarginButtonContainer" type="MarginContainer" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_constants/margin_right = 75
+script = ExtResource("7_il55h")
 
-[node name="KnifeButton" type="TextureButton" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/StrikesBox"]
-custom_minimum_size = Vector2(52, 52)
+[node name="RedButton" type="TextureButton" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer"]
 layout_mode = 2
 toggle_mode = true
-texture_normal = ExtResource("6_58wk5")
-texture_pressed = ExtResource("7_1d0rf")
-texture_hover = ExtResource("8_q0vx2")
-texture_disabled = ExtResource("9_65dbf")
-stretch_mode = 5
-script = ExtResource("9_psfg5")
+texture_normal = ExtResource("7_yhglg")
+texture_pressed = ExtResource("8_xmisu")
+texture_disabled = ExtResource("7_yhglg")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_aaf50")
 
-[node name="StrikesLabel" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/StrikesBox"]
+[node name="StrikesBox" type="HBoxContainer" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="KnifeIcon" type="TextureRect" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/StrikesBox"]
+custom_minimum_size = Vector2(52, 52)
+layout_mode = 2
+texture = ExtResource("6_58wk5")
+stretch_mode = 5
+
+[node name="StrikesLabel" type="Label" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/StrikesBox"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "STRIKES: N/A"
 script = ExtResource("10_o27my")
 
-[node name="Container3" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
+[node name="Spacer3" type="Container" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 
@@ -161,4 +172,6 @@ columns = 3
 script = ExtResource("1_2kbe3")
 
 [connection signal="pressed" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer2/VBoxContainer/Back" to="VBoxContainer/BoardBorder/GameBoard" method="_on_back_pressed"]
-[connection signal="toggled" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/StrikesBox/KnifeButton" to="VBoxContainer/BoardBorder/GameBoard" method="_on_knife_button_toggled"]
+[connection signal="mouse_entered" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/RedButton" to="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/RedButton" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/RedButton" to="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/RedButton" method="_on_mouse_exited"]
+[connection signal="toggled" from="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/RedButton" to="VBoxContainer/Gradient/HBoxContainer/MarginContainer/VBoxContainer/MarginButtonContainer/RedButton" method="_on_toggled"]
