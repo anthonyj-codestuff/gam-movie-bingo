@@ -1,6 +1,6 @@
 shader_type canvas_item;
 
-uniform float intensity = 1.0;
+uniform float intensity = 0.75;
 uniform bool active = false;
 
 void fragment() {
