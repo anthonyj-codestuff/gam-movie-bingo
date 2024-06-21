@@ -62,13 +62,8 @@ func pruneSquare():
 	var randInt = randi_range(0, len(gameData)-1)
 	while Game.currentBoard.has(randInt):
 		randInt = randi_range(0, len(gameData)-1)
-	var cell = gameData[randInt]
 	Game.currentBoard.push_back(randInt)
-	# set new properties 
-	var image = load(cell.filename) if len(cell.filename) > 0 else null
-	var text = "" if cell.ignoreTitle else cell.title
-	var score = cell.rarity
-	self.setState(30, text, score, image)
+	Utils.getNewBingoSquareFromData(randInt, self)
 
 func handleSquarePruned():
 	if Game.unlimitedPrunes:

@@ -24,10 +24,12 @@ func loadGameMode(name: String):
 		var data = JSON.parse_string(jsonText)
 		Game.currentGameData = data
 		print(Game.currentGameData.title)
-		var dict: Dictionary = {}
+		# Collect subcategories and allow the user to select the ones they want
+		var subcategoryCounts: Dictionary = {}
 		for e in data.data:
-			if len(e.subCategories) > 0 and dict.has(e.subCategories[0]):
-				dict[e.subCategories[0]] += 1
+			if len(e.subCategories) > 0 and subcategoryCounts.has(e.subCategories[0]):
+				subcategoryCounts[e.subCategories[0]] += 1
 			elif len(e.subCategories) > 0:
-				dict[e.subCategories[0]] = 1
-		print(dict)
+				subcategoryCounts[e.subCategories[0]] = 1
+		print(subcategoryCounts)
+		Game.currentGameData = data

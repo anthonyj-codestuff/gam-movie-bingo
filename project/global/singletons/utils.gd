@@ -3,6 +3,60 @@ const MODULE_NAME = "Utils"
 #var logger = LogWriter.new()
 var BingoSquare = preload("res://global/BingoSquare.tscn")
 
+const defaults = {
+	"fontSize": 30,
+	"text": "",
+	"score": 0,
+	"image": "res://assets/blank.png",
+	"altText": ""
+}
+
+###################
+# New Square Stuff
+
+func getNewBingoSquareFromData(index: int, target = null):
+	var data = Game.getGameSquareData()
+	if data[index]:
+		var squareData = data[index]
+		var fontSize = _getFontSizeFromCellData(squareData)
+		var text = _getTitleFromCellData(squareData)
+		var score = _getScoreFromCellData(squareData)
+		var texture = load(_getImagepathFromCellData(squareData))
+		var altText = _getAltTextFromCellData(squareData)
+
+		if not target:
+			var square = BingoSquare.instantiate()
+			square.setState(fontSize, text, score, texture, altText)
+			return square
+		else:
+			target.setState(fontSize, text, score, texture, altText)
+	return
+
+func _getFontSizeFromCellData(cellData):
+	if cellData.has("fontSizeAdjust"):
+		return defaults["fontSize"] + cellData["fontSizeAdjust"]
+	return defaults["fontSize"]
+
+func _getTitleFromCellData(cellData):
+	if cellData["ignoreTitle"] or not cellData.has("title"):
+		return defaults["text"]
+	return cellData["title"]
+
+func _getScoreFromCellData(cellData):
+	if cellData.has("rarity"):
+		return cellData["rarity"]
+	return defaults["score"]
+
+func _getImagepathFromCellData(cellData):
+	if cellData.has("filename"):
+		return cellData["filename"]
+	return defaults["image"]
+
+func _getAltTextFromCellData(cellData):
+	if cellData.has("tooltip"):
+		return cellData["tooltip"]
+	return defaults["altText"]
+
 #############
 # Misc stuff
 
