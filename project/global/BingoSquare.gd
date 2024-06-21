@@ -2,10 +2,12 @@ extends MarginContainer
 
 var textContents:String
 var pointValue:int
+var mat = ShaderMaterial.new()
 
 func _ready():
-	pass
+	mat.shader = load("res://assets/shaders/greyscale.gdshader")
 
+# TODO wtf is all this doing here? Move this out
 func _process(delta):
 	var textLabel = get_node("VBoxContainer/RichTextLabel")
 	if textLabel.size.y > size.x:
@@ -15,9 +17,9 @@ func _process(delta):
 		textLabel.add_theme_font_size_override("normal_font_size", newFontSize)
 		print(str(textLabel["theme_override_font_sizes/normal_font_size"]) + " -> " + str(newFontSize))
 	if Game.pruneMode:
-		get_node("TextureRect").material.set_shader_parameter("active", true)
+		get_node("TextureRect").material = mat
 	else:
-		get_node("TextureRect").material.set_shader_parameter("active", false)
+		get_node("TextureRect").material = null
 
 func getPointValue()->int:
 	return pointValue

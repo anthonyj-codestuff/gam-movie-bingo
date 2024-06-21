@@ -7,7 +7,7 @@ const defaults = {
 	"fontSize": 30,
 	"text": "",
 	"score": 0,
-	"image": "res://assets/blank.png",
+	"image": "res://assets/images/blank.png",
 	"altText": ""
 }
 
@@ -48,12 +48,12 @@ func _getScoreFromCellData(cellData):
 	return defaults["score"]
 
 func _getImagepathFromCellData(cellData):
-	if cellData.has("filename"):
+	if cellData.has("filename") and cellData["filename"].length():
 		return cellData["filename"]
 	return defaults["image"]
 
 func _getAltTextFromCellData(cellData):
-	if cellData.has("tooltip"):
+	if cellData.has("tooltip") and cellData["tooltip"].length():
 		return cellData["tooltip"]
 	return defaults["altText"]
 
