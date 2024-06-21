@@ -24,3 +24,7 @@ func _on_button_hard_pressed():
 func _on_button_daring_pressed():
 	Game.gridSize = 6
 	get_tree().change_scene_to_file("res://scenes/gameboard.tscn")
+
+
+func _on_button_options_pressed():
+	get_tree().change_scene_to_file("res://scenes/options.tscn")

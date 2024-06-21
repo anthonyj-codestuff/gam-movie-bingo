@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://60tda85jp7ru"]
+[gd_scene load_steps=13 format=3 uid="uid://60tda85jp7ru"]
 
 [ext_resource type="FontFile" uid="uid://dp3leh3q1lctk" path="res://assets/fonts/ShantellSans-VariableFont.ttf" id="1_akhhq"]
 [ext_resource type="Script" path="res://scenes/ButtonContainer.gd" id="2_ad6tn"]
-[ext_resource type="Theme" uid="uid://bc44ulks4c077" path="res://assets/themes/BingoTheme.tres" id="3_bg2i5"]
+[ext_resource type="Theme" uid="uid://bc44ulks4c077" path="res://assets/themes/ButtonThemeBlue.tres" id="3_bpwdo"]
 [ext_resource type="Script" path="res://scenes/LoadGameMode.gd" id="4_3gih1"]
+[ext_resource type="Theme" uid="uid://dmoh2xwkfhd0n" path="res://assets/themes/ButtonThemeGrey.tres" id="4_5w8hp"]
 [ext_resource type="Script" path="res://DevlogScroll.gd" id="5_rjvhs"]
 [ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="6_q8j6d"]
 [ext_resource type="FontFile" uid="uid://b8s1afwbggr2j" path="res://assets/fonts/CantedComic Bold.otf" id="7_yohth"]
@@ -74,7 +75,7 @@ script = ExtResource("2_ad6tn")
 [node name="ButtonEasy" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("3_bg2i5")
+theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
@@ -87,7 +88,7 @@ size_flags_vertical = 3
 [node name="ButtonMedium" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("3_bg2i5")
+theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
@@ -100,7 +101,7 @@ size_flags_vertical = 3
 [node name="ButtonHard" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("3_bg2i5")
+theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
@@ -113,18 +114,33 @@ size_flags_vertical = 3
 [node name="ButtonDaring" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-theme = ExtResource("3_bg2i5")
+theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
 text = "Daring (6x6)"
 
+[node name="ButtonOptions" type="Button" parent="."]
+custom_minimum_size = Vector2(50, 50)
+offset_left = 14.0
+offset_top = 824.0
+offset_right = 161.0
+offset_bottom = 874.0
+theme = ExtResource("4_5w8hp")
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+text = "Options"
+
 [node name="ButtonLoadMode" type="Button" parent="."]
 custom_minimum_size = Vector2(50, 50)
-offset_left = 75.0
-offset_top = 870.0
-offset_right = 125.0
-offset_bottom = 920.0
+offset_left = 16.0
+offset_top = 896.0
+offset_right = 199.0
+offset_bottom = 946.0
+theme = ExtResource("4_5w8hp")
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+text = "Load \"Conspiracies\""
 script = ExtResource("4_3gih1")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
@@ -182,4 +198,5 @@ Game by @badgertide"
 [connection signal="pressed" from="ButtonContainer/ButtonMedium" to="ButtonContainer" method="_on_button_medium_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonHard" to="ButtonContainer" method="_on_button_hard_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonDaring" to="ButtonContainer" method="_on_button_daring_pressed"]
+[connection signal="pressed" from="ButtonOptions" to="ButtonContainer" method="_on_button_options_pressed"]
 [connection signal="pressed" from="ButtonLoadMode" to="ButtonLoadMode" method="_on_pressed"]
