@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://crhlnby7toogc"]
 
-[ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
-[ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/images/tick.png" id="2_vwiis"]
-[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="3_1md4q"]
-[ext_resource type="Theme" uid="uid://4djdt8d12whe" path="res://assets/themes/TootipTheme.tres" id="5_n8xm7"]
+[ext_resource type="Script" path="res://scenes/BingoSquare.gd" id="1_jbuwt"]
+[ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/images/tick.png" id="2_ueitk"]
+[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="3_dtyd4"]
+[ext_resource type="Theme" uid="uid://4djdt8d12whe" path="res://assets/themes/TootipTheme.tres" id="4_d31rq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7drt5"]
 draw_center = false
@@ -35,7 +35,7 @@ theme_override_constants/margin_left = 2
 theme_override_constants/margin_top = 2
 theme_override_constants/margin_right = 2
 theme_override_constants/margin_bottom = 2
-script = ExtResource("1_0qmsi")
+script = ExtResource("1_jbuwt")
 
 [node name="Border" type="Panel" parent="."]
 z_index = 1
@@ -47,13 +47,13 @@ visible = false
 z_index = 1
 z_as_relative = false
 layout_mode = 2
-texture = ExtResource("2_vwiis")
+texture = ExtResource("2_ueitk")
 expand_mode = 4
 
 [node name="TextureRect" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 layout_mode = 2
-texture = ExtResource("3_1md4q")
+texture = ExtResource("3_dtyd4")
 expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
@@ -97,7 +97,7 @@ size_flags_horizontal = 8
 size_flags_vertical = 8
 mouse_force_pass_scroll_events = false
 mouse_default_cursor_shape = 16
-theme = ExtResource("5_n8xm7")
+theme = ExtResource("4_d31rq")
 
 [node name="TooltipLabel" type="Label" parent="TooltipBox"]
 layout_mode = 2

@@ -1,7 +1,7 @@
 extends Node
 const MODULE_NAME = "Utils"
 #var logger = LogWriter.new()
-var BingoSquare = preload("res://global/BingoSquare.tscn")
+var BingoSquare = preload("res://scenes/BingoSquare.tscn")
 
 const defaults = {
 	"fontSize": 30,
