@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://crhlnby7toogc"]
+[gd_scene load_steps=11 format=3 uid="uid://crhlnby7toogc"]
 
 [ext_resource type="Script" path="res://global/BingoSquare.gd" id="1_0qmsi"]
 [ext_resource type="Texture2D" uid="uid://kccuxdjjo1ne" path="res://assets/images/tick.png" id="2_vwiis"]
 [ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="3_1md4q"]
 [ext_resource type="Shader" path="res://assets/shaders/greyscale.gdshader" id="3_gv28n"]
+[ext_resource type="Theme" uid="uid://4djdt8d12whe" path="res://TootipTheme.tres" id="5_a826c"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7drt5"]
 draw_center = false
@@ -76,17 +77,17 @@ fit_content = true
 scroll_active = false
 tab_size = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="PointsBox" type="MarginContainer" parent="."]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 8
 theme = SubResource("Theme_sv6oq")
 
-[node name="Panel" type="Panel" parent="MarginContainer"]
+[node name="Panel" type="Panel" parent="PointsBox"]
 custom_minimum_size = Vector2(26, 26)
 layout_mode = 2
 
-[node name="PointsLabel" type="Label" parent="MarginContainer"]
+[node name="PointsLabel" type="Label" parent="PointsBox"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "0"
@@ -95,5 +96,28 @@ horizontal_alignment = 1
 [node name="ClickButton" type="Button" parent="."]
 layout_mode = 2
 flat = true
+
+[node name="TooltipBox" type="CenterContainer" parent="."]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+mouse_force_pass_scroll_events = false
+mouse_default_cursor_shape = 16
+theme = ExtResource("5_a826c")
+
+[node name="TooltipLabel" type="Label" parent="TooltipBox"]
+layout_mode = 2
+tooltip_text = "???"
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "?"
+horizontal_alignment = 1
+
+[node name="Panel" type="Panel" parent="TooltipBox"]
+custom_minimum_size = Vector2(34, 34)
+layout_mode = 2
+mouse_filter = 1
 
 [connection signal="pressed" from="ClickButton" to="." method="_on_click_button_pressed"]

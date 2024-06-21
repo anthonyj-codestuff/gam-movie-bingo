@@ -22,12 +22,19 @@ func _process(delta):
 func getPointValue()->int:
 	return pointValue
 
-func setState(fontSize:int, text:String, score:int, image:Texture2D):
+func setState(fontSize:int, text:String, score:int, image:Texture2D, altText:String):
 	pointValue = score
 	get_node("VBoxContainer/RichTextLabel").text = "[center]" + text + "[/center]"
 	get_node("VBoxContainer/RichTextLabel").add_theme_font_size_override("font_size", fontSize)
 	get_node("TextureRect").set_texture(image)
-	get_node("MarginContainer/PointsLabel").text = str(score)
+	get_node("PointsBox/PointsLabel").text = str(score)
+	var tooltipBox = get_node("TooltipBox")
+	if altText.length():
+		tooltipBox.visible = true
+		tooltipBox.tooltip_text = Utils.formatTooltipText(altText)
+	else:
+		tooltipBox.visible = false
+		tooltipBox.tooltip_text = ""
 	textContents = text
 
 func _on_click_button_pressed():
