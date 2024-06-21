@@ -1,6 +1,6 @@
 {
 	"title": "Neil Breengo",
-	"freeSpaceText": [],
+	"freeSpaceText": ["Shirtless Neil", "Desert Scene"],
 	"active": true,
 	"data": [
 		{
@@ -235,16 +235,6 @@
 		},
 		{
 			"title": "Blood on Neil's Face",
-			"ignoreTitle": false,
-			"filename": "",
-			"headerHeight": 0,
-			"subCategories": [],
-			"tooltip": "",
-			"rarity": 1,
-			"fontSizeAdjust": 0
-		},
-		{
-			"title": "Neil Breen Shirtless",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,

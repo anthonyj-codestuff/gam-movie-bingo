@@ -2,7 +2,8 @@ extends Button
 
 const GameModes = {
 	"conspiracy": "res://assets/game-modes/conspiracy.json",
-	"christian-classic": "res://assets/game-modes/christian-classic.json"
+	"christian-classic": "res://assets/game-modes/christian-classic.json",
+	"neil-breen": "res://assets/game-modes/neil-breen.json"
 }
 
 func _ready():
