@@ -5,7 +5,7 @@
 [ext_resource type="Theme" uid="uid://bc44ulks4c077" path="res://assets/themes/ButtonThemeBlue.tres" id="3_bpwdo"]
 [ext_resource type="Script" path="res://scenes/LoadGameMode.gd" id="4_3gih1"]
 [ext_resource type="Theme" uid="uid://dmoh2xwkfhd0n" path="res://assets/themes/ButtonThemeGrey.tres" id="4_5w8hp"]
-[ext_resource type="Script" path="res://DevlogScroll.gd" id="5_rjvhs"]
+[ext_resource type="Script" path="res://scenes/devlogScroll.gd" id="5_rjvhs"]
 [ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="6_q8j6d"]
 [ext_resource type="FontFile" uid="uid://b8s1afwbggr2j" path="res://assets/fonts/CantedComic Bold.otf" id="7_yohth"]
 

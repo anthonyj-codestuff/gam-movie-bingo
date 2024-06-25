@@ -7,15 +7,8 @@ var mat = ShaderMaterial.new()
 func _ready():
 	mat.shader = load("res://assets/shaders/greyscale.gdshader")
 
-# TODO wtf is all this doing here? Move this out
+# TODO this should go in the parent game board
 func _process(delta):
-	var textLabel = get_node("VBoxContainer/RichTextLabel")
-	if textLabel.size.y > size.x:
-		# VERY HACKY - if the text label is taller than the square is wide
-		print(textLabel)
-		var newFontSize = textLabel["theme_override_font_sizes/normal_font_size"] - 1
-		textLabel.add_theme_font_size_override("normal_font_size", newFontSize)
-		print(str(textLabel["theme_override_font_sizes/normal_font_size"]) + " -> " + str(newFontSize))
 	if Game.pruneMode:
 		get_node("TextureRect").material = mat
 	else:
@@ -26,8 +19,9 @@ func getPointValue()->int:
 
 func setState(fontSize:int, text:String, score:int, image:Texture2D, altText:String):
 	pointValue = score
-	get_node("VBoxContainer/RichTextLabel").text = "[center]" + text + "[/center]"
-	get_node("VBoxContainer/RichTextLabel").add_theme_font_size_override("font_size", fontSize)
+	get_node("VBoxContainer/MarginContainer/RichTextLabel").text = "[center]" + text + "[/center]"
+	print("setting font size %s for %s" % [fontSize, text])
+	get_node("VBoxContainer/MarginContainer/RichTextLabel").add_theme_font_size_override("normal_font_size", fontSize)
 	get_node("TextureRect").set_texture(image)
 	get_node("PointsBox/PointsLabel").text = str(score)
 	var tooltipBox = get_node("TooltipBox")

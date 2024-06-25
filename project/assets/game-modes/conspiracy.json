@@ -84,7 +84,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "\"COVID Mandates\"",
+			"title": "COVID Mandates",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -109,9 +109,9 @@
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "",
+			"tooltip": "Theorizing about or advocating for",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -2
 		},
 		{
 			"title": "Hunter Biden",
@@ -364,7 +364,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Conspiracy That's Actually Just Capitalism ",
+			"title": "Conspiracy That's Actually Just Capitalism",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -374,7 +374,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Black Budget",
+			"title": "Black\nBudget",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -434,7 +434,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "JEWS (hard J)",
+			"title": "JEWS\n(hard J)",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -781,7 +781,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -4
 		},
 		{
 			"title": "\"They\"",
@@ -904,7 +904,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Transvestigation",
+			"title": "Trans-vestigation",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -991,7 +991,7 @@
 			"subCategories": [],
 			"tooltip": "a person is stopped at random for an interview, usually with a shaky camera",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -2
 		},
 		{
 			"title": "Vladimir Putin",
@@ -1074,12 +1074,12 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "You Will Eat Ze Bugs",
+			"title": "You Vill Eat Ze Bugs",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "reference to eating bugs, even with no accent",
+			"tooltip": "reference to eating bugs or worms, even with no accent",
 			"rarity": 5,
 			"fontSizeAdjust": 0
 		},
@@ -1171,7 +1171,7 @@
 			"subCategories": [],
 			"tooltip": "could be the speaker's book for sale or a bible, but it is relevant and prominent",
 			"rarity": 2,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -2
 		},
 		{
 			"title": "\"USA! USA! USA!\"",

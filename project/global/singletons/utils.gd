@@ -4,7 +4,12 @@ const MODULE_NAME = "Utils"
 var BingoSquare = preload("res://scenes/BingoSquare.tscn")
 
 const defaults = {
-	"fontSize": 30,
+	"fontSize": {
+		"3": 40,
+		"4": 25,
+		"5": 23,
+		"6": 21
+	},
 	"text": "",
 	"score": 0,
 	"image": "res://assets/images/blank.png",
@@ -18,7 +23,7 @@ func getNewBingoSquareFromData(index: int, target = null):
 	var data = Game.getGameSquareData()
 	if data[index]:
 		var squareData = data[index]
-		var fontSize = _getFontSizeFromCellData(squareData)
+		var fontSize = _getFontSizeByContent(squareData)
 		var text = _getTitleFromCellData(squareData)
 		var score = _getScoreFromCellData(squareData)
 		var texture = load(_getImagepathFromCellData(squareData))
@@ -29,13 +34,19 @@ func getNewBingoSquareFromData(index: int, target = null):
 			square.setState(fontSize, text, score, texture, altText)
 			return square
 		else:
+			# used for setting a new state on an existing square
 			target.setState(fontSize, text, score, texture, altText)
 	return
 
-func _getFontSizeFromCellData(cellData):
+func _getFontSizeByContent(cellData):
+	var fontSizeAdjust
+	var text
 	if cellData.has("fontSizeAdjust"):
-		return defaults["fontSize"] + cellData["fontSizeAdjust"]
-	return defaults["fontSize"]
+		fontSizeAdjust = cellData["fontSizeAdjust"]
+	if cellData.has("title"):
+		text = cellData["title"]
+	var newFontSize = getFontSize(text, Game.gridSize) + fontSizeAdjust
+	return newFontSize
 
 func _getTitleFromCellData(cellData):
 	if cellData["ignoreTitle"] or not cellData.has("title"):
@@ -75,3 +86,6 @@ func formatTooltipText(string, len = 45):
 			line = ""
 	lines.append(line)
 	return "\n".join(lines)
+
+func getFontSize(text: String, gridSize: int):
+	return defaults["fontSize"][str(gridSize)]
