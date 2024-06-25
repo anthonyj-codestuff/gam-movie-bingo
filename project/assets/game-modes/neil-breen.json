@@ -2,6 +2,8 @@
 	"title": "Neil Breengo",
 	"freeSpaceText": ["Shirtless Neil", "Desert Scene"],
 	"active": true,
+	"description": "Movies starring or concerning the legendary Neil Breen",
+	"header": "",
 	"data": [
 		{
 			"title": "Something Gets Dropped",

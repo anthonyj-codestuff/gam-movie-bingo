@@ -1,0 +1,1641 @@
+{
+	"title": "Christian (Classic) V2",
+	"freeSpaceText": [],
+	"active": false,
+	"description": "Christian bad movie bingo. Includes high-resolution pictures",
+	"header": "res://assets/images/logo-gam.png",
+	"data": [
+		{
+			"title": "absolutely nothing happens",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/nothing-happens.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "angry yelling at god",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/angry-yelling-at-god-.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "arranged marriage",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/arranged-marriage.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "atheist converts\nto christianity",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/atheist-converts.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad dad flips overnight",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-dad-flips-overnight.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad pizza-ing",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-pizza-ing.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "clueless about sports",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-sportsing.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "clueless about drinking",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-whisky-drinking-(heath-rant).jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "biology class",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/biology-class.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "casual racism",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/casual-racism.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "charles darwin had doubts",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/charles-darwin-had-doubts.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip":"",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "cheap special effects",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/cheap-special-effects.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "christian heavy petting",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/christian-heavy-petting.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "deeply repressed",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/deeply-repressed.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "don't know how sound works",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/dont-know-how-sound-works.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "dying atheist reaffirms\nchristian's faith",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/dying-atheist-reaffirms-christians-faith.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'emotional' adultery",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/emotional-adultery.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'european' antichrist",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/european-antichrist.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "expressing your\nfeelings is unmanly",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/expressing-your-feelings-is-unmanly.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "flashback to 18 seconds ago",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/flashback-to-18-seconds-ago.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "shotgun wedding leads\nto happy marriage",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/happy-shotgun-wedding.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "haunted by ghost fetus",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/haunted-by-ghost-fetus.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "horror, porno, or christian?",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/horror,-porno-or-christian.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "ICE are the good guys",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/ice-are-the-good-guys.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "jesus cures alcoholism\novernight",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/jesus-cures-alcoholism-overnight.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "keeping the rape baby",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/keeping-the-rape-baby.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "kind-hearted christian nurse",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/kind-hearted-christian-nurse.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "magic old person wisdom",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/magical-old-person-wisdom.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "marriage is sacred,\ndivorce is bad!",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/marriage-is-sacred.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "mean muslim dad",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/mean-muslim-dad.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "misquoting einstein",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/misquoting-einstein.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "cancer mom",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/moms-cancer-turned-them-atheist.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "money problems",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/money-problems.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "missionary is tempted",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/mormon-missionary-is-tempted.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "missionary is tempted\ndeleted scene",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/mormon-missionary-is-tempted2.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "passive aggressive prayer",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/passive-aggresive-prayer.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "sad bible reading",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/sad-bible-reading.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "secular woman finds god",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/secular-woman-converts.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "single woman pushed to marry",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/single-woman-pushed-to-marry.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "single woman with a sex drive\n(she's no good)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/single-woman-with-a-sex-drive.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'star' cameo gets top billing",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/star-cameo-gets-top-billing.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "the awkward kiss",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/the-awkward-kiss.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "the debate",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/the-debate.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "the magic black woman",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/the-magical-black-woman.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "ugly crucifix jewellery",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/ugly-crucifix-jewellery.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "uncaring secular doctor",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/uncaring-secular-doctor.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "waitress gets a fake tip",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/waitress-gets-a-fake-tip.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "working mother shamed",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/working-mother-shamed.jpg",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		}
+	],
+	"data-do-not-use": [
+		{
+			"title": "Actor improvises\n'acting normal'\n(padding movie length)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/acting-normal.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "All is forgiven",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/all-is-forgiven.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Angry clown becomes christian",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/angry-clown.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "offensive portrayal of\nangry little person",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/angry-little-person.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "christian anti-porn activists",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/anti-porn.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "smoking is bad",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/anti-smoking.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "atheist dies gruesome death",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/atheist-death.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "atheist converts on deathbed",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/atheist-deathbed-conversion.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "atheist lawyer",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/atheist-lawyer.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "christian saves life of atheist",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/atheist-life-saved.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "uncaring atheist parents",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/atheist-parents.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad at doing cop stuff",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-at-copping.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad at poker\n(or how to drive heath crazy)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-at-poker.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad at modern technology",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-at-technology.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad chess-ing",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-chessing.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "shot does not\nunderstand composition",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-composition.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad at first aid",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-first-aid.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad juggling\n(aka 'noah loses it')",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-juggling.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bad whiskey drinking\n(heath rant)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-whiskey-drinking.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "the 'bad with money' scene",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bad-with-money.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bechdel test fail",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bechdel-test-fail.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "giving bible to alcoholic",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bible-to-alcoholic.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "black men only have one name",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/black-mononym.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "black pastor with\nall-white congregation",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/black-pastor-white-congregation.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "confusing boring for deep",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/boring-not-deep.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bullet-proof bible",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/bulletproof-bible.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "mom's cancer turned them atheist",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/cancer-turned-atheist.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "can't say 'merry christmas'",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/cant-say-merry-christmas.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "career change",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/career-change.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "catholics are not christian",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/catholics-not-christian.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "unfired chekhov's guns",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/chekhovs-gun.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "child visits heaven",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/child-visits-heaven.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "communists corrupting children",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/communist-influence.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "push pin and thread time",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/conspiracy.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "couple fighting\n(no swearing)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/couple-fight.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "cunning disguises",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/cunning-disguise.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "dad dissed by wife & kids",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/dad-insulted.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "depiction of hell",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/depiction-of-hell.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "disappointed father",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/disappointed-father.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "divorced woman\nenters the scene",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/divorced-woman.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "no need to involve the police",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/dont-call-police.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "drinking problem\n(bad christian)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/drinking-christian.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "that escalated quickly",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/escalated-quickly.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "parents ostracize atheist child",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/estranged-atheist-child.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "the bad jews",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/evil-jews.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "sadistic romans",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/evil-romans.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "evolution 'debunked'",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/evolution-debunked.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "faith beats science",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/faith-beats-science.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "no swearing",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/fake-swearing.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "awkward family banter",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/family-banter.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bible-reading montage",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/fast-bible-reading.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "hand to hand fighting",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/fist-fight.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "ongoing financial problems\nfixed with one fundraiser",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/fixed-financial-problems.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "flirting montage\n(can't do dialogue)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/flirting-montage.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "magical holy book",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/flying-artifact.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "bible flicking\n(the prelude to\natheist conversion)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/frantic-bible-reading.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "gary busey 'running'",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/gary-busey-running.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'gay' satan",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/gay-satan.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "genuinely moving moment",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/genuine-moment.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "dropping the j bomb",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/hard-j-bomb.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "harry potter is satanic",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/harry-potter.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "helping hand",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/helping-hand.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "hero speech",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/hero-speech.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "homeless dude was\nan angel all along",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/homeless-angel.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "unintentionally homoerotic",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/homoerotic.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "hot pastor\n(love interest for atheist)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/hot-pastor.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "signs of the jezebel",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/jezebel.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "kept from questioning",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/kept-from-questioning.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "kids say the darndest things",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/kids-say-things.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "k-sorbs, bane of all antifa",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/ksorbs.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "late for church",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/late-to-church.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "left behind christian pastor",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/left-behind-pastor.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "lesbian converted straight",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/lesbian-conversion.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'starring' a lesser\nbaldwin brother",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/lesser-baldwin.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "lots of white men in this movie",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/lots-of-white-men.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "love the sinner hate the sin",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/love-the-sinner.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "magic oil",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/magic-oil.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "married forehead kiss\n(no lips, we're christian)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/married-forehead-kiss.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "god works in mysterious ways",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/mysterious-ways.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "natural disasters are\ncaused by free will",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/natural-disasters.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "prominent nazi memorabilia",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/nazi-memorabilia.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "nimby (not in my back yard)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/nimby.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "peter, ninja apostle",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/ninja-apostle.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "government regulation",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/no-regulation.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "not christian enough",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/not-christian-enough.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "paramedic saving souls",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/paramedic-conversion.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "p.g. rated biker bar",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/pg-biker-bar.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "planned parenthood\n'whistleblower'",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/planned-parenthood-whistleblower.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "ignoring the\nproblem of evil",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/poe-jinglykeys.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "justifying the\nproblem of evil",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/poe-newangel.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "blaming the\nproblem of evil",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/poe-prayer.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "enduring the\nproblem of evil",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/poe-testing.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "addicted to porn",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/porn-addict.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "all premarital sex\nis the woman's fault",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/premarital-sex.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "deathbed proselytizing",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/priest-deathbed-conversion.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "prosperity gospel",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/prosperity-gospel.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'rapey' scene",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/rapey-scene.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "religious blackmail",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/religious-blackmail.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "set in the south",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/set-in-the-south.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "make a few look like a crowd",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/small-crowd.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "'experts'",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/socalled-experts.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "movie's sole black guy\nis the villain",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/sole-black-villain.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "background extra\nsteals the scene",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/star-background-extra.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "stock footage is cheaper",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/stock-footage.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "salvation through suffering\n(call me job)",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/story-of-job.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "surprisingly good sportsing",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/surprisingly-good-sportsing.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "tell, don't show",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/tell-dont-show.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "atheist ranking system",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/top-rated-atheist.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "don't realize how sexual\nsomething sounds",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/unintentionally-sexual.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "vaccines = mark of the beast",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/vaccines-mark-of-the-beast.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "vigilante pastor",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/vigilante-pastor.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "dream sequence that\neveryone else can see",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/visible-dream-sequence.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "water has memory",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/water-has-memory.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "white people dancing badly",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/white-people-dancing.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "therapy, schmerapy!",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-large/who-needs-therapy.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		}
+	]
+}

@@ -2,6 +2,8 @@
 	"title": "Christian (Classic)",
 	"freeSpaceText": [],
 	"active": true,
+	"description": "Christian bad movie bingo. Includes pictures",
+	"header": "res://assets/images/logo-gam.png",
 	"data": [
 		{
 			"title": "Actor improvises\n'acting normal'\n(padding movie length)",
