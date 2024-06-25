@@ -4,6 +4,7 @@
 	"active": true,
 	"description": "Christian bad movie bingo. Includes pictures",
 	"header": "res://assets/images/logo-gam.png",
+	"logo": "res://assets/images/mode-logos/christian.png",
 	"data": [
 		{
 			"title": "Actor improvises\n'acting normal'\n(padding movie length)",

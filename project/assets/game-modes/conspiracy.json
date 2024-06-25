@@ -4,6 +4,7 @@
 	"active": true,
 	"description": "Movies about 9/11 or fluoride in the water supply",
 	"header": "",
+	"logo": "res://assets/images/mode-logos/conspiracy.png",
 	"data": [
 		{
 			"title": "It Was Aliens",

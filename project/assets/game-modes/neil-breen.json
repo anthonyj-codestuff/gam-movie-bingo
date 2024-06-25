@@ -4,6 +4,7 @@
 	"active": true,
 	"description": "Movies starring or concerning the legendary Neil Breen",
 	"header": "",
+	"logo": "res://assets/images/mode-logos/breen.png",
 	"data": [
 		{
 			"title": "Something Gets Dropped",
