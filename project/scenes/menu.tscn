@@ -14,8 +14,9 @@ colors = PackedColorArray(1, 1, 1, 1, 0.976471, 1, 0.596078, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_1egm1"]
 gradient = SubResource("Gradient_17dgd")
-fill_from = Vector2(0.0747863, 0.615385)
-fill_to = Vector2(0.619658, 0)
+fill_from = Vector2(0.1, 0.6)
+fill_to = Vector2(0.6, 0)
+metadata/_snap_enabled = true
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ijflt"]
 content_margin_left = 10.0

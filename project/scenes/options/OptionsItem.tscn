@@ -1,0 +1,87 @@
+[gd_scene load_steps=6 format=3 uid="uid://cnqn063xicj8i"]
+
+[ext_resource type="Script" path="res://scenes/options/OptionsItem.gd" id="1_blvao"]
+[ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="1_r8qow"]
+[ext_resource type="FontFile" uid="uid://b8s1afwbggr2j" path="res://assets/fonts/CantedComic Bold.otf" id="2_mwun3"]
+[ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="3_w0m3b"]
+[ext_resource type="PackedScene" uid="uid://doq2wpwlv2jai" path="res://scenes/options/OptionCategory.tscn" id="4_2nfgb"]
+
+[node name="OptionsItem" type="Control"]
+custom_minimum_size = Vector2(640, 140)
+layout_mode = 3
+anchor_right = 0.711
+anchor_bottom = 0.109
+offset_right = 0.0999773
+offset_bottom = 20.1
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_blvao")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(2.08165e-12, 25)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.6, 0.6, 0.6, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="LogoImage" type="TextureRect" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("1_r8qow")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LabelName" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(2.08165e-12, 26)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_mwun3")
+theme_override_font_sizes/font_size = 18
+text = "NAMENAMENAMENAMENAMENAMENAME"
+
+[node name="LabelDesc" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(516, 39)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("3_w0m3b")
+theme_override_font_sizes/font_size = 14
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae purus tempus, elementum dui vitae, volutpat lacus."
+autowrap_mode = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="OptionCategory" parent="MarginContainer/HBoxContainer/VBoxContainer/ScrollContainer/HBoxContainer" instance=ExtResource("4_2nfgb")]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+categoryName = "All"
