@@ -1,8 +1,10 @@
 extends Node
-
-var gameModes: Array = [
-	"conspiracy"
-]
+var gameModeFiles = {
+	"christian-classic": "res://assets/game-modes/christian-classic.json",
+	"christian-classic-v2": "res://assets/game-modes/christian-classic-v2.json",
+	"conspiracy": "res://assets/game-modes/conspiracy.json",
+	"neil-breen": "res://assets/game-modes/neil-breen.json"
+}
 
 # NxN number of cells for grid
 var gridSize: int = 0

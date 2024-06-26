@@ -1,5 +1,6 @@
 {
-	"title": "Conspiracy Theories",
+	"id": 3,
+	"title": "Conspiracy Theory Bingo",
 	"freeSpaceText": ["\"They\"", "Flat Earth", "Antivax", "Supernatural"],
 	"active": true,
 	"description": "Movies about 9/11 or fluoride in the water supply",

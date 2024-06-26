@@ -1,5 +1,6 @@
 {
-	"title": "Christian (Classic)",
+	"id": 1,
+	"title": "Christian Movie Bingo",
 	"freeSpaceText": [],
 	"active": true,
 	"description": "Christian bad movie bingo. Includes pictures",
@@ -522,7 +523,7 @@
 			"filename": "res://assets/images/squares/darwin-had-doubts.png",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip":"",
+			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
