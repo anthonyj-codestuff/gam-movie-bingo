@@ -1,9 +1,9 @@
 [gd_scene load_steps=13 format=3 uid="uid://60tda85jp7ru"]
 
+[ext_resource type="Script" path="res://scenes/menu.gd" id="1_5xo1g"]
 [ext_resource type="FontFile" uid="uid://dp3leh3q1lctk" path="res://assets/fonts/ShantellSans-VariableFont.ttf" id="1_akhhq"]
 [ext_resource type="Script" path="res://scenes/ButtonContainer.gd" id="2_ad6tn"]
 [ext_resource type="Theme" uid="uid://bc44ulks4c077" path="res://assets/themes/ButtonThemeBlue.tres" id="3_bpwdo"]
-[ext_resource type="Script" path="res://scenes/LoadGameMode.gd" id="4_3gih1"]
 [ext_resource type="Theme" uid="uid://dmoh2xwkfhd0n" path="res://assets/themes/ButtonThemeGrey.tres" id="4_5w8hp"]
 [ext_resource type="Script" path="res://scenes/devlogScroll.gd" id="5_rjvhs"]
 [ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="6_q8j6d"]
@@ -33,6 +33,7 @@ corner_radius_top_right = 7
 ScrollContainer/styles/panel = SubResource("StyleBoxFlat_ijflt")
 
 [node name="menu" type="Node2D"]
+script = ExtResource("1_5xo1g")
 
 [node name="ColorRect" type="TextureRect" parent="."]
 offset_right = 900.0
@@ -121,33 +122,38 @@ theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
 theme_override_font_sizes/font_size = 38
 text = "Daring (6x6)"
 
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 18.0
+offset_top = 812.0
+offset_right = 459.0
+offset_bottom = 886.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Current Board:"
+
+[node name="LabelGameMode" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+
 [node name="ButtonOptions" type="Button" parent="."]
 custom_minimum_size = Vector2(50, 50)
-offset_left = 14.0
-offset_top = 824.0
-offset_right = 161.0
-offset_bottom = 874.0
+offset_left = 16.0
+offset_top = 896.0
+offset_right = 163.0
+offset_bottom = 946.0
 theme = ExtResource("4_5w8hp")
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 text = "Options"
 
-[node name="ButtonLoadMode" type="Button" parent="."]
-custom_minimum_size = Vector2(50, 50)
-offset_left = 16.0
-offset_top = 896.0
-offset_right = 199.0
-offset_bottom = 946.0
-theme = ExtResource("4_5w8hp")
-theme_override_colors/font_color = Color(1, 1, 0, 1)
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
-text = "Load \"Conspiracies\""
-script = ExtResource("4_3gih1")
-
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 offset_left = 327.0
-offset_top = 1029.0
-offset_right = 739.0
+offset_top = 991.0
+offset_right = 892.0
 offset_bottom = 1092.0
 theme = SubResource("Theme_xwnt5")
 scroll_vertical = 40
@@ -175,8 +181,14 @@ text = "0.0.1 Basic bingo game
 0.3.1 bugfix, disabled pruning when ticking a box
 0.3.2 UI improvement, retooled prune button for readability
 0.4.0 added shader for easier readability during pruning
-0.4.1 Fixed mislabeled button"
+0.4.1 Fixed mislabeled button
+1.0.0 Updated shaders for improved visibility
+  Added 2 new bingo modes
+  Added options menu for switching game modes
+  Added subcategory selection for diverse game boards
+  Added manual text scaling to help with asset clipping"
 autowrap_mode = 3
+justification_flags = 131
 
 [node name="Credits" type="Label" parent="."]
 anchors_preset = 2
@@ -200,4 +212,3 @@ Game by @badgertide"
 [connection signal="pressed" from="ButtonContainer/ButtonHard" to="ButtonContainer" method="_on_button_hard_pressed"]
 [connection signal="pressed" from="ButtonContainer/ButtonDaring" to="ButtonContainer" method="_on_button_daring_pressed"]
 [connection signal="pressed" from="ButtonOptions" to="ButtonContainer" method="_on_button_options_pressed"]
-[connection signal="pressed" from="ButtonLoadMode" to="ButtonLoadMode" method="_on_pressed"]

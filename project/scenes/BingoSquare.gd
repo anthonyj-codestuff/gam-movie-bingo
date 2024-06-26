@@ -20,7 +20,6 @@ func getPointValue()->int:
 func setState(fontSize:int, text:String, score:int, image:Texture2D, altText:String):
 	pointValue = score
 	get_node("VBoxContainer/MarginContainer/RichTextLabel").text = "[center]" + text + "[/center]"
-	print("setting font size %s for %s" % [fontSize, text])
 	get_node("VBoxContainer/MarginContainer/RichTextLabel").add_theme_font_size_override("normal_font_size", fontSize)
 	get_node("TextureRect").set_texture(image)
 	get_node("PointsBox/PointsLabel").text = str(score)

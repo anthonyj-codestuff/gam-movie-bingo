@@ -1,11 +1,9 @@
 extends Control
 
-var CategoryBox
-var LogoImage
-var LabelName
-var LabelDesc
 var OptionSubcategoryPacked = preload("res://scenes/options/OptionSubcategory.tscn")
 var gameModeId: int
+var gameModeName: String
+var gameModeActive = true
 var gameItemsFullList: Array[Dictionary] = []
 var gameItemsFiltered: Array[Dictionary] = []
 var subcategoryNodesList: Array = []
@@ -18,13 +16,14 @@ func _ready():
 func setState(subcategories:Dictionary, gameData: Dictionary):
 	# set locally important data
 	gameModeId = gameData["id"]
+	gameModeName = gameData["title"]
 	gameItemsFullList = Array(gameData["data"], TYPE_DICTIONARY, &"", null)
 	gameItemsFiltered = Array(gameData["data"], TYPE_DICTIONARY, &"", null)
 	# gather important nodes
-	CategoryBox = get_node("MarginContainer/HBoxContainer/VBoxContainer/ScrollContainer/HBoxContainer")
-	LogoImage = get_node("MarginContainer/HBoxContainer/LogoImage")
-	LabelName = get_node("MarginContainer/HBoxContainer/VBoxContainer/LabelName")
-	LabelDesc = get_node("MarginContainer/HBoxContainer/VBoxContainer/LabelDesc")
+	var CategoryBox = get_node("MarginContainer/HBoxContainer/VBoxContainer/ScrollContainer/HBoxContainer")
+	var LogoImage = get_node("MarginContainer/HBoxContainer/LogoImage")
+	var LabelName = get_node("MarginContainer/HBoxContainer/VBoxContainer/LabelName")
+	var LabelDesc = get_node("MarginContainer/HBoxContainer/VBoxContainer/LabelDesc")
 	# shader for inactive options
 	mat.shader = load("res://assets/shaders/greyscale.gdshader")
 
@@ -33,6 +32,7 @@ func setState(subcategories:Dictionary, gameData: Dictionary):
 	LabelName.text = gameData["title"]
 	LabelDesc.text = gameData["description"]
 	if not gameData["active"]:
+		gameModeActive = false
 		LogoImage.material = mat
 		LabelName.text = LabelName.text + " (inactive)"
 
@@ -82,7 +82,8 @@ func _on_subcategory_selected(subcategoryName: String, emitterParentId: int, tog
 		print("invalid state ", subcategoryName, emitterParentId, toggled)
 
 func _on_game_mode_select_button_pressed():
-	print("_on_game_mode_select_button_pressed")
-	for i in gameItemsFiltered:
-		print(i["title"])
-	print(gameItemsFiltered.size())
+	if gameModeActive:
+		Game.currentGameTitle = gameModeName
+		Game.currentGameData = gameItemsFiltered
+		get_tree().change_scene_to_file("res://scenes/menu.tscn")
+	

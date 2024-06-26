@@ -10,7 +10,8 @@ var gameModeFiles = {
 var gridSize: int = 0
 
 # stores selected game configuration for easy access
-var currentGameData: Dictionary = {}
+var currentGameTitle: String = "Christian Movie Bingo"
+var currentGameData: Array = []
 
 # holds all squares that have ever been included in the current board
 var currentBoard: Array = []
@@ -21,23 +22,24 @@ var pruneModeDisabled = false
 const unlimitedPrunes = false
 
 # number of times the user is allowed to remove a square from the board
+var defaultPrunes = 3
 var prunesRemaining = 3
 
 var currentScore = 0
 
 func getGameSquareData() -> Array:
-	if currentGameData.has("data"):
-		return currentGameData.data
+	if currentGameData.size():
+		return currentGameData
 	else:
-		return []
+		var defaultData = Utils.getJSONData(gameModeFiles["christian-classic"])
+		return defaultData.data
 
 func resetBoard():
 	gridSize = 0
-	currentGameData = {}
 	currentBoard = []
 	pruneMode = false
 	pruneModeDisabled = false
-	prunesRemaining = 3
+	prunesRemaining = defaultPrunes
 	
 func disablePruning():
 	pruneMode = false

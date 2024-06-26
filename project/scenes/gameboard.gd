@@ -12,17 +12,22 @@ func _ready():
 	
 	# spawn child nodes
 	var gameCells = Game.getGameSquareData()
-	var length = len(gameCells)
+	var length = gameCells.size()
 	# double-check that we don't need to clear this
 	Game.currentBoard = []
-	for i in pow(gridSize, 2):
-		var randInt = randi_range(0, length-1)
-		while Game.currentBoard.has(randInt):
-			randInt = randi_range(0, length-1)
-		var cell = gameCells[randInt]
-		Game.currentBoard.push_back(randInt)
-		var newCell = Utils.getNewBingoSquareFromData(randInt)
-		add_child(newCell)
+	if length and length >= pow(gridSize, 2):
+		for i in pow(gridSize, 2):
+			var randInt = randi_range(0, length-1)
+			while Game.currentBoard.has(randInt):
+				randInt = randi_range(0, length-1)
+			var cell = gameCells[randInt]
+			Game.currentBoard.push_back(randInt)
+			var newCell = Utils.getNewBingoSquareFromData(randInt)
+			add_child(newCell)
+	else:
+		print("Error: No game cells found")
+		print("gameCells: ", length)
+		print("gridSize: ", gridSize)
 
 func _process(delta):
 	var total = 0
