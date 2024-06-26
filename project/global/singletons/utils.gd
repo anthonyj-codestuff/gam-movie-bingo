@@ -69,6 +69,35 @@ func _getAltTextFromCellData(cellData):
 	return defaults["altText"]
 
 #############
+# Core Utils
+
+func getJSONData(filepath: String):
+	if FileAccess.file_exists(filepath):
+		var jsonText = FileAccess.get_file_as_string(filepath)
+		var data = JSON.parse_string(jsonText)
+		return data
+
+func getJSONCategoryCounts(gameData: Dictionary):
+	# Return:
+	# {
+	#    "category1": 3
+	#    "category2": 2
+	# }
+	var subcategoryCounts: Dictionary = {
+		"all": gameData.data.size(),
+		"uncategorized": 0
+	}
+	for e in gameData.data:
+		if len(e.subCategories) > 0 and subcategoryCounts.has(e.subCategories[0]):
+			subcategoryCounts[e.subCategories[0]] += 1
+		elif len(e.subCategories) > 0:
+			subcategoryCounts[e.subCategories[0]] = 1
+		else:
+			subcategoryCounts["uncategorized"] += 1
+	print(subcategoryCounts)
+	return subcategoryCounts
+
+#############
 # Misc stuff
 
 func formatTooltipText(string, len = 45):

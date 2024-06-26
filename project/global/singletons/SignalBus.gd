@@ -1,0 +1,3 @@
+extends Node
+
+signal game_mode_subcategory_check_box_toggled

@@ -1,10 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://3lpkfctij64h"]
+[gd_scene load_steps=7 format=3 uid="uid://3lpkfctij64h"]
 
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/images/button_up.png" id="1_dknb1"]
 [ext_resource type="Script" path="res://scenes/options/options.gd" id="1_tanrb"]
 [ext_resource type="Texture2D" uid="uid://c2u4h0xjapwda" path="res://assets/images/button_down.png" id="2_n21ci"]
 [ext_resource type="Texture2D" uid="uid://ejw8qxexvet5" path="res://assets/images/button_hover.png" id="3_78npq"]
-[ext_resource type="PackedScene" uid="uid://cnqn063xicj8i" path="res://scenes/options/OptionsItem.tscn" id="5_ao1dc"]
 
 [sub_resource type="Gradient" id="Gradient_17dgd"]
 colors = PackedColorArray(1, 1, 1, 1, 1, 0.673333, 0.6, 1)
@@ -58,9 +57,5 @@ offset_bottom = 1020.0
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-
-[node name="OptionsItem" parent="ScrollContainer/VBoxContainer" instance=ExtResource("5_ao1dc")]
-custom_minimum_size = Vector2(2.08165e-12, 140)
-layout_mode = 2
 
 [connection signal="pressed" from="MarginContainer2/VBoxContainer/Back" to="." method="_on_back_pressed"]
