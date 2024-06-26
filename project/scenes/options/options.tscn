@@ -42,6 +42,7 @@ theme_override_constants/separation = 0
 [node name="Back" type="TextureButton" parent="MarginContainer2/VBoxContainer"]
 custom_minimum_size = Vector2(2.08165e-12, 30)
 layout_mode = 2
+mouse_default_cursor_shape = 2
 texture_normal = ExtResource("1_dknb1")
 texture_pressed = ExtResource("2_n21ci")
 texture_hover = ExtResource("3_78npq")

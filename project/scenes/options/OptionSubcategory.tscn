@@ -49,6 +49,7 @@ layout_mode = 2
 
 [node name="CheckBox" type="CheckBox" parent="CenterContainer/HBox/VBox/HBox2"]
 layout_mode = 2
+mouse_default_cursor_shape = 2
 theme = SubResource("Theme_3ngn2")
 button_pressed = true
 

@@ -77,6 +77,7 @@ script = ExtResource("2_ad6tn")
 [node name="ButtonEasy" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
@@ -90,6 +91,7 @@ size_flags_vertical = 3
 [node name="ButtonMedium" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
@@ -103,6 +105,7 @@ size_flags_vertical = 3
 [node name="ButtonHard" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
@@ -116,6 +119,7 @@ size_flags_vertical = 3
 [node name="ButtonDaring" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_vertical = 3
+mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
@@ -145,6 +149,7 @@ offset_left = 16.0
 offset_top = 896.0
 offset_right = 163.0
 offset_bottom = 946.0
+mouse_default_cursor_shape = 2
 theme = ExtResource("4_5w8hp")
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
@@ -186,7 +191,8 @@ text = "0.0.1 Basic bingo game
   Added 2 new bingo modes
   Added options menu for switching game modes
   Added subcategory selection for diverse game boards
-  Added manual text scaling to help with asset clipping"
+  Added manual text scaling to help with asset clipping
+1.0.1 Pointer cursors for buttons"
 autowrap_mode = 3
 justification_flags = 131
 
