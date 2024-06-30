@@ -18,12 +18,32 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Body Double",
+			"title": "Nationalism",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Soy",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "The government is using soy to feminize the population",
+			"rarity": 5,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Body Double",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "The claim that a person was secretly replaced with a look-alike",
 			"rarity": 5,
 			"fontSizeAdjust": 0
 		},
@@ -43,7 +63,7 @@
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "Claim that future elections will be suspended",
+			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
@@ -145,7 +165,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 3,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -3
 		},
 		{
 			"title": "Dr. Fauchi",
@@ -208,13 +228,53 @@
 			"fontSizeAdjust": 0
 		},
 		{
+			"title": "Pizzagate",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["maga"],
+			"tooltip": "Claiming that Comet Ping Pong has a child sex dungeon",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
 			"title": "Chemtrails",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
-			"rarity": 1,
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "MK Ultra",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "A real thing that happened. The CIA illegally dosed civilians with drugs to develop brainwashing tech",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Operation Paperclip",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "A real thing that happened. After WW2, America hired a lot of Nazi scientists so that the Soviets wouldn't get them",
+			"rarity": 4,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Dinosaurs are Fake",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["christian"],
+			"tooltip": "",
+			"rarity": 4,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -235,14 +295,14 @@
 			"subCategories": [],
 			"tooltip": "The conspiracy theory that white people are being displaced by growing the populations of minority groups",
 			"rarity": 2,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -1
 		},
 		{
 			"title": "Area 51",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["supernatural"],
 			"tooltip": "",
 			"rarity": 4,
 			"fontSizeAdjust": 0
@@ -338,13 +398,13 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "After School Satan",
+			"title": "Hearing the Voice of God",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": ["christian"],
 			"tooltip": "",
-			"rarity": 5,
+			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -375,20 +435,30 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -4
 		},
 		{
-			"title": "Black\nBudget",
+			"title": "Black Budget",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
-			"rarity": 2,
+			"rarity": 3,
 			"fontSizeAdjust": 0
 		},
 		{
 			"title": "Earth is Flat",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["flatearth"],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Earth is Hollow",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -484,7 +554,7 @@
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
-			"rarity": 1,
+			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -504,6 +574,16 @@
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "They have to say the full name or it doesn't count",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Michelle Obama is a Man",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
 			"rarity": 3,
 			"fontSizeAdjust": 0
 		},
@@ -528,7 +608,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Military Industrial Complex",
+			"title": "\"Military Industrial Complex\"",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -548,17 +628,27 @@
 			"fontSizeAdjust": 0
 		},
 		{
+			"title": "Particle Accelerators",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
 			"title": "The Gay Agenda",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": ["lgbt"],
+			"subCategories": ["lgbt", "christian"],
 			"tooltip": "",
 			"rarity": 3,
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Do Your Own Research",
+			"title": "\"Do Your Own Research\"",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -572,7 +662,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["maga"],
 			"tooltip": "",
 			"rarity": 3,
 			"fontSizeAdjust": 0
@@ -614,7 +704,7 @@
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
-			"rarity": 1,
+			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -665,7 +755,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 4,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -1
 		},
 		{
 			"title": "__ Is Still Alive",
@@ -712,7 +802,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["maga"],
 			"tooltip": "",
 			"rarity": 1,
 			"fontSizeAdjust": 0
@@ -735,6 +825,16 @@
 			"subCategories": ["antivax"],
 			"tooltip": "",
 			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "DEI",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["maga"],
+			"tooltip": "Diversity, Equity, and Inclusion. The idea that eligible white people are not getting jobs in favor of unqiualified minorities",
+			"rarity": 3,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -768,11 +868,21 @@
 			"fontSizeAdjust": 0
 		},
 		{
+			"title": "Vaccines Cause Autism",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 2,
+			"fontSizeAdjust": 0
+		},
+		{
 			"title": "Lost Civilization",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": ["supernatural"],
+			"subCategories": ["supernatural", "flatearth"],
 			"tooltip": "",
 			"rarity": 1,
 			"fontSizeAdjust": 0
@@ -802,7 +912,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["flatearth"],
 			"tooltip": "",
 			"rarity": 4,
 			"fontSizeAdjust": 0
@@ -812,13 +922,13 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["christian", "maga"],
 			"tooltip": "Any bible passage on screen",
 			"rarity": 1,
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Odd Credentials",
+			"title": "Weird Credentials",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -894,7 +1004,7 @@
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
-			"rarity": 1,
+			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -904,7 +1014,7 @@
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "Also acceptable: Cultural Bolshevism. The claim that leftist values are being pushed to destroy western civilization",
-			"rarity": 1,
+			"rarity": 3,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -919,6 +1029,16 @@
 		},
 		{
 			"title": "Talking in Front of Books",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Crying on Camera",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -968,23 +1088,13 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Footage of Nazis",
-			"ignoreTitle": false,
-			"filename": "",
-			"headerHeight": 0,
-			"subCategories": [],
-			"tooltip": "",
-			"rarity": 1,
-			"fontSizeAdjust": 0
-		},
-		{
 			"title": "Nanobots",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": ["antivax"],
 			"tooltip": "",
-			"rarity": 1,
+			"rarity": 4,
 			"fontSizeAdjust": 0
 		},
 		{
@@ -1012,7 +1122,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["maga"],
 			"tooltip": "Joe Biden looking evil for any reason",
 			"rarity": 3,
 			"fontSizeAdjust": 0
@@ -1022,7 +1132,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["maga"],
 			"tooltip": "Joe Biden looking stupid or feeble",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1038,14 +1148,14 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "There Are No Coincidences",
+			"title": "\"There Are No Coincidences\"",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -1
 		},
 		{
 			"title": "Visible InfoWars Logo",
@@ -1078,7 +1188,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "You Vill Eat Ze Bugs",
+			"title": "\"You Vill Eat Ze Bugs\"",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
@@ -1162,7 +1272,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["maga"],
 			"tooltip": "",
 			"rarity": 1,
 			"fontSizeAdjust": 0
@@ -1182,7 +1292,7 @@
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["maga"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1194,6 +1304,46 @@
 			"headerHeight": 0,
 			"subCategories": [],
 			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Hydroxy-chloroquine",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["antivax"],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Coke-fueled Rant",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Dominion Voting Machines",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": ["maga"],
+			"tooltip": "",
+			"rarity": 3,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Matrix Reference",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "Reference to The Red/Blue Pill, living in a simulation, or Neo",
 			"rarity": 3,
 			"fontSizeAdjust": 0
 		}
