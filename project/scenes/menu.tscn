@@ -192,7 +192,9 @@ text = "0.0.1 Basic bingo game
   Added options menu for switching game modes
   Added subcategory selection for diverse game boards
   Added manual text scaling to help with asset clipping
-1.0.1 Pointer cursors for buttons"
+1.0.1 Pointer cursors for buttons
+1.0.2 Tweaking text sizes
+1.1.0 Implementing weighted rarity"
 autowrap_mode = 3
 justification_flags = 131
 
