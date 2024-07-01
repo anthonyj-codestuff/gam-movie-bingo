@@ -1,9 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://cnqn063xicj8i"]
+[gd_scene load_steps=9 format=3 uid="uid://cnqn063xicj8i"]
 
 [ext_resource type="Script" path="res://scenes/options/OptionsItem.gd" id="1_blvao"]
 [ext_resource type="Texture2D" uid="uid://uiy7v8fxykd3" path="res://assets/images/blank.png" id="1_r8qow"]
 [ext_resource type="FontFile" uid="uid://b8s1afwbggr2j" path="res://assets/fonts/CantedComic Bold.otf" id="2_mwun3"]
+[ext_resource type="Texture2D" uid="uid://dw3cqba461xcr" path="res://assets/images/mode-logos/button-play-normal.png" id="3_6dggl"]
 [ext_resource type="FontFile" uid="uid://bwarup1ao013v" path="res://assets/fonts/SourceCodePro-VariableFont_wght.ttf" id="3_w0m3b"]
+[ext_resource type="Texture2D" uid="uid://c4a4qfy6ygpo4" path="res://assets/images/mode-logos/button-play-pressed.png" id="4_i1noo"]
+[ext_resource type="Texture2D" uid="uid://dyhky1y54gbyn" path="res://assets/images/mode-logos/button-play-hover.png" id="5_8xiwv"]
+[ext_resource type="Texture2D" uid="uid://c1tghynupef46" path="res://assets/images/mode-logos/button-play-disabled.png" id="6_ssny7"]
 
 [node name="OptionsItem" type="Control"]
 custom_minimum_size = Vector2(640, 140)
@@ -48,7 +52,7 @@ texture = ExtResource("1_r8qow")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="Button" type="Button" parent="MarginContainer/HBoxContainer/LogoImage"]
+[node name="Button" type="TextureButton" parent="MarginContainer/HBoxContainer/LogoImage"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -56,7 +60,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_default_cursor_shape = 2
-flat = true
+texture_normal = ExtResource("3_6dggl")
+texture_pressed = ExtResource("4_i1noo")
+texture_hover = ExtResource("5_8xiwv")
+texture_disabled = ExtResource("6_ssny7")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="VSeparator" type="VSeparator" parent="MarginContainer/HBoxContainer"]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)

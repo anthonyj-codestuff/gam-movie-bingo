@@ -194,7 +194,9 @@ text = "0.0.1 Basic bingo game
   Added manual text scaling to help with asset clipping
 1.0.1 Pointer cursors for buttons
 1.0.2 Tweaking text sizes
-1.1.0 Implementing weighted rarity"
+1.1.0 Implementing weighted rarity
+1.1.1 Options to disable square rarity
+  Adding visible buttons to options menu"
 autowrap_mode = 3
 justification_flags = 131
 

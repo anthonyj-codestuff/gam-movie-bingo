@@ -23,6 +23,7 @@ func setState(subcategories:Dictionary, gameData: Dictionary):
 	# gather important nodes
 	var CategoryBox = get_node("MarginContainer/HBoxContainer/VBoxContainer/ScrollContainer/HBoxContainer")
 	var LogoImage = get_node("MarginContainer/HBoxContainer/LogoImage")
+	var SelectButton = get_node("MarginContainer/HBoxContainer/LogoImage/Button")
 	var LabelName = get_node("MarginContainer/HBoxContainer/VBoxContainer/LabelName")
 	var LabelDesc = get_node("MarginContainer/HBoxContainer/VBoxContainer/LabelDesc")
 	# shader for inactive options
@@ -36,6 +37,7 @@ func setState(subcategories:Dictionary, gameData: Dictionary):
 		gameModeActive = false
 		LogoImage.material = mat
 		LabelName.text = LabelName.text + " (inactive)"
+		SelectButton.disabled = true
 
 	if gameData.has("ignoreRarity"):
 		gameModeIgnoreRarity = gameData["ignoreRarity"]
