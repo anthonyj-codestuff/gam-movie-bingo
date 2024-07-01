@@ -12,6 +12,7 @@ var gridSize: int = 0
 # stores selected game configuration for easy access
 var currentGameTitle: String = "Christian Movie Bingo"
 var currentGameData: Array = []
+var currentGameIgnoreRarity = true
 
 # holds all squares that have ever been included in the current board
 var currentBoard: Array = []
@@ -32,6 +33,7 @@ func getGameSquareData() -> Array:
 		return currentGameData
 	else:
 		var defaultData = Utils.getJSONData(gameModeFiles["christian-classic"])
+		currentGameIgnoreRarity = defaultData["ignoreRarity"]
 		return defaultData.data
 
 func resetBoard():

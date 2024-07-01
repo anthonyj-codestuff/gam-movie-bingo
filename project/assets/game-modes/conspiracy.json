@@ -3,6 +3,7 @@
 	"title": "Conspiracy Theory Bingo",
 	"freeSpaceText": ["\"They\"", "Flat Earth", "Antivax", "Supernatural"],
 	"active": true,
+	"ignoreRarity": false,
 	"description": "Movies about 9/11 or fluoride in the water supply",
 	"header": "",
 	"logo": "res://assets/images/mode-logos/conspiracy.png",
@@ -125,7 +126,7 @@
 			"subCategories": ["maga"],
 			"tooltip": "",
 			"rarity": 2,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "Assassination",
@@ -305,7 +306,7 @@
 			"subCategories": ["supernatural"],
 			"tooltip": "",
 			"rarity": 4,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "New World Order",
@@ -415,7 +416,7 @@
 			"subCategories": [],
 			"tooltip": "Calling someone a Nazi or showing actual Nazis",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "Face on Mars",
@@ -425,7 +426,7 @@
 			"subCategories": ["flatearth"],
 			"tooltip": "",
 			"rarity": 5,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 2
 		},
 		{
 			"title": "Conspiracy That's Actually Just Capitalism",
@@ -505,7 +506,7 @@
 			"subCategories": [],
 			"tooltip": "Mentioning jews in any way or context. Also acceptable: Zionists or Israel",
 			"rarity": 2,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "JEWS\n(hard J)",
@@ -745,7 +746,7 @@
 			"subCategories": ["maga"],
 			"tooltip": "",
 			"rarity": 3,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "\"You Will Own Nothing and Like It\"",
@@ -815,7 +816,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "Microchips",
@@ -835,7 +836,7 @@
 			"subCategories": ["maga"],
 			"tooltip": "Diversity, Equity, and Inclusion. The idea that eligible white people are not getting jobs in favor of unqiualified minorities",
 			"rarity": 3,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "Big Pharma",
@@ -905,7 +906,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "Solar Eclipse",
@@ -1155,7 +1156,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": -1
+			"fontSizeAdjust": -3
 		},
 		{
 			"title": "Visible InfoWars Logo",
@@ -1235,7 +1236,7 @@
 			"subCategories": ["supernatural"],
 			"tooltip": "Bigfoot, Nessie, Sasquatch, or other such naturally blurry creature",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 3
 		},
 		{
 			"title": "Sheeple",
@@ -1245,7 +1246,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 3,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": 2
 		},
 		{
 			"title": "Police State",
@@ -1308,7 +1309,7 @@
 			"fontSizeAdjust": 0
 		},
 		{
-			"title": "Hydroxy-chloroquine",
+			"title": "Hydroxychloroquine",
 			"ignoreTitle": false,
 			"filename": "",
 			"headerHeight": 0,

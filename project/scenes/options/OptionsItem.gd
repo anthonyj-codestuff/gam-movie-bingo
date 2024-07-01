@@ -4,6 +4,7 @@ var OptionSubcategoryPacked = preload("res://scenes/options/OptionSubcategory.ts
 var gameModeId: int
 var gameModeName: String
 var gameModeActive = true
+var gameModeIgnoreRarity = true
 var gameItemsFullList: Array[Dictionary] = []
 var gameItemsFiltered: Array[Dictionary] = []
 var subcategoryNodesList: Array = []
@@ -35,6 +36,9 @@ func setState(subcategories:Dictionary, gameData: Dictionary):
 		gameModeActive = false
 		LogoImage.material = mat
 		LabelName.text = LabelName.text + " (inactive)"
+
+	if gameData.has("ignoreRarity"):
+		gameModeIgnoreRarity = gameData["ignoreRarity"]
 
 	# Spawn category buttons with labels
 	for key in subcategories:
@@ -85,5 +89,6 @@ func _on_game_mode_select_button_pressed():
 	if gameModeActive:
 		Game.currentGameTitle = gameModeName
 		Game.currentGameData = gameItemsFiltered
+		Game.currentGameIgnoreRarity = gameModeIgnoreRarity
 		get_tree().change_scene_to_file("res://scenes/menu.tscn")
 	

@@ -15,6 +15,8 @@ func _process(delta):
 		get_node("TextureRect").material = null
 
 func getPointValue()->int:
+	if Game.currentGameIgnoreRarity:
+		return 1
 	return pointValue
 
 func setState(fontSize:int, text:String, score:int, image:Texture2D, altText:String):
@@ -23,6 +25,7 @@ func setState(fontSize:int, text:String, score:int, image:Texture2D, altText:Str
 	get_node("VBoxContainer/MarginContainer/RichTextLabel").add_theme_font_size_override("normal_font_size", fontSize)
 	get_node("TextureRect").set_texture(image)
 	get_node("PointsBox/PointsLabel").text = str(score)
+	get_node("PointsBox").visible = not Game.currentGameIgnoreRarity
 	var tooltipBox = get_node("TooltipBox")
 	if altText.length():
 		tooltipBox.visible = true

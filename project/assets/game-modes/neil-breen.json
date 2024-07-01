@@ -3,6 +3,7 @@
 	"title": "Neil Breengo",
 	"freeSpaceText": ["Shirtless Neil", "Desert Scene"],
 	"active": true,
+	"ignoreRarity": true,
 	"description": "Movies starring or concerning the legendary Neil Breen",
 	"header": "",
 	"logo": "res://assets/images/mode-logos/breen.png",
@@ -325,7 +326,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -3
 		},
 		{
 			"title": "Suicide",
@@ -415,7 +416,7 @@
 			"subCategories": [],
 			"tooltip": "",
 			"rarity": 1,
-			"fontSizeAdjust": 0
+			"fontSizeAdjust": -4
 		},
 		{
 			"title": "Political Monologue",
