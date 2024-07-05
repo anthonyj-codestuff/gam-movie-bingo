@@ -1,9 +1,10 @@
-[gd_scene load_steps=18 format=3 uid="uid://buksg42wk3ks8"]
+[gd_scene load_steps=19 format=3 uid="uid://buksg42wk3ks8"]
 
 [ext_resource type="Texture2D" uid="uid://ge5es2n71p8a" path="res://assets/images/button_up.png" id="1_4bypm"]
 [ext_resource type="Texture2D" uid="uid://c2u4h0xjapwda" path="res://assets/images/button_down.png" id="2_8aosr"]
 [ext_resource type="Texture2D" uid="uid://ejw8qxexvet5" path="res://assets/images/button_hover.png" id="3_c5ier"]
-[ext_resource type="Texture2D" uid="uid://b873d5xkvrard" path="res://assets/images/logo-gam.png" id="4_hosa2"]
+[ext_resource type="Texture2D" uid="uid://blk1gyun51gmr" path="res://assets/images/mode-logos/banner-gam.png" id="4_sp236"]
+[ext_resource type="Script" path="res://scenes/GameBanner.gd" id="5_a5en4"]
 [ext_resource type="Script" path="res://scenes/CategoryLabel.gd" id="5_k2a20"]
 [ext_resource type="Script" path="res://scenes/ScoreLabel.gd" id="6_r5ha4"]
 [ext_resource type="Script" path="res://scenes/MarginButtonContainer.gd" id="7_x4umu"]
@@ -82,13 +83,14 @@ texture_pressed = ExtResource("2_8aosr")
 texture_hover = ExtResource("3_c5ier")
 ignore_texture_size = true
 
-[node name="Header" type="TextureRect" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer2/VBoxContainer"]
+[node name="GameBanner" type="TextureRect" parent="VBoxContainer/Gradient/HBoxContainer/MarginContainer2/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
 mouse_filter = 2
-texture = ExtResource("4_hosa2")
+texture = ExtResource("4_sp236")
 expand_mode = 2
 stretch_mode = 5
+script = ExtResource("5_a5en4")
 
 [node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Gradient/HBoxContainer"]
 custom_minimum_size = Vector2(250, 2.08165e-12)

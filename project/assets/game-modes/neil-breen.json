@@ -5,7 +5,7 @@
 	"active": true,
 	"ignoreRarity": true,
 	"description": "Movies starring or concerning the legendary Neil Breen",
-	"header": "",
+	"header": "res://assets/images/mode-logos/banner-breen.png",
 	"logo": "res://assets/images/mode-logos/breen.png",
 	"data": [
 		{

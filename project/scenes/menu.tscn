@@ -196,7 +196,8 @@ text = "0.0.1 Basic bingo game
 1.0.2 Tweaking text sizes
 1.1.0 Implementing weighted rarity
 1.1.1 Options to disable square rarity
-  Adding visible buttons to options menu"
+  Adding visible buttons to options menu
+1.1.2 Custom header images for different game modes"
 autowrap_mode = 3
 justification_flags = 131
 

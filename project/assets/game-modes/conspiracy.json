@@ -5,7 +5,7 @@
 	"active": true,
 	"ignoreRarity": false,
 	"description": "Movies about 9/11 or fluoride in the water supply",
-	"header": "",
+	"header": "res://assets/images/mode-logos/banner-conspiracy.png",
 	"logo": "res://assets/images/mode-logos/conspiracy.png",
 	"data": [
 		{

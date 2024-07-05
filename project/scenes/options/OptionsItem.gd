@@ -3,6 +3,7 @@ extends Control
 var OptionSubcategoryPacked = preload("res://scenes/options/OptionSubcategory.tscn")
 var gameModeId: int
 var gameModeName: String
+var gameModeBanner: String
 var gameModeActive = true
 var gameModeIgnoreRarity = true
 var gameItemsFullList: Array[Dictionary] = []
@@ -18,6 +19,7 @@ func setState(subcategories:Dictionary, gameData: Dictionary):
 	# set locally important data
 	gameModeId = gameData["id"]
 	gameModeName = gameData["title"]
+	gameModeBanner = gameData["header"]
 	gameItemsFullList = Array(gameData["data"], TYPE_DICTIONARY, &"", null)
 	gameItemsFiltered = Array(gameData["data"], TYPE_DICTIONARY, &"", null)
 	# gather important nodes
@@ -90,6 +92,7 @@ func _on_subcategory_selected(subcategoryName: String, emitterParentId: int, tog
 func _on_game_mode_select_button_pressed():
 	if gameModeActive:
 		Game.currentGameTitle = gameModeName
+		Game.currentGameHeader = gameModeBanner
 		Game.currentGameData = gameItemsFiltered
 		Game.currentGameIgnoreRarity = gameModeIgnoreRarity
 		get_tree().change_scene_to_file("res://scenes/menu.tscn")

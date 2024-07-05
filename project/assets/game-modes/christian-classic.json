@@ -5,7 +5,7 @@
 	"active": true,
 	"ignoreRarity": false,
 	"description": "Christian bad movie bingo. Includes pictures",
-	"header": "res://assets/images/logo-gam.png",
+	"header": "res://assets/images/mode-logos/banner-gam.png",
 	"logo": "res://assets/images/mode-logos/christian.png",
 	"data": [
 		{
