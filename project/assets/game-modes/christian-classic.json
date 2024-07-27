@@ -33,7 +33,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/angry-clown.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 5,
 			"fontSizeAdjust": 0
@@ -53,7 +53,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/anti-porn.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 3,
 			"fontSizeAdjust": 0
@@ -153,7 +153,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/bad-at-copping.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -183,7 +183,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/bad-at-technology.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 1,
 			"fontSizeAdjust": 0
@@ -263,7 +263,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/bad-pizza.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 3,
 			"fontSizeAdjust": 0
@@ -313,7 +313,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/biology-class.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -623,7 +623,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/european-antichrist.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -703,7 +703,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/fake-tip.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 4,
 			"fontSizeAdjust": 0
@@ -833,7 +833,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/good-guy-ice.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 3,
 			"fontSizeAdjust": 0
@@ -853,7 +853,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/harry-potter.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1183,7 +1183,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/nimby.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1243,7 +1243,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/paramedic-conversion.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1263,7 +1263,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/pg-biker-bar.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1273,7 +1273,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/planned-parenthood-whistleblower.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 1,
 			"fontSizeAdjust": 0
@@ -1284,7 +1284,7 @@
 			"filename": "res://assets/images/squares/poe-jinglykeys.png",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "",
+			"tooltip": "Ignoring the problem of evil",
 			"rarity": 1,
 			"fontSizeAdjust": 0
 		},
@@ -1294,7 +1294,7 @@
 			"filename": "res://assets/images/squares/poe-newangel.png",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "",
+			"tooltip": "Justifying the problem of evil",
 			"rarity": 2,
 			"fontSizeAdjust": 0
 		},
@@ -1304,7 +1304,7 @@
 			"filename": "res://assets/images/squares/poe-prayer.png",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "",
+			"tooltip": "Blaming the problem of evil on someone's shortcomings",
 			"rarity": 3,
 			"fontSizeAdjust": 0
 		},
@@ -1314,7 +1314,7 @@
 			"filename": "res://assets/images/squares/poe-testing.png",
 			"headerHeight": 0,
 			"subCategories": [],
-			"tooltip": "",
+			"tooltip": "Claiming the problem of evil is a test",
 			"rarity": 1,
 			"fontSizeAdjust": 0
 		},
@@ -1323,7 +1323,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/porn-addict.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1443,7 +1443,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/socalled-experts.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 1,
 			"fontSizeAdjust": 0
@@ -1523,7 +1523,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/top-rated-atheist.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
@@ -1563,7 +1563,7 @@
 			"ignoreTitle": true,
 			"filename": "res://assets/images/squares/vaccines-mark-of-the-beast.png",
 			"headerHeight": 0,
-			"subCategories": [],
+			"subCategories": ["modern"],
 			"tooltip": "",
 			"rarity": 2,
 			"fontSizeAdjust": 0
