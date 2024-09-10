@@ -1,0 +1,402 @@
+{
+	"id": 5,
+	"title": "Debate 2024",
+	"freeSpaceText": ["Free Space"],
+	"active": true,
+	"ignoreRarity": true,
+	"description": "Presidential debate Harris vs Trump",
+	"header": "res://assets/images/mode-logos/banner-debate2024.png",
+	"logo": "res://assets/images/mode-logos/debate2024.png",
+	"data": [
+		{
+			"title": "\"Woke Liberal Agenda\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"America First\" / \"Make America Great Again\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Sleepy Joe\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Talks About The Wall",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"I'm Speaking\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Witch Hunt\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"We're Not Going Back\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Someone Brings Up Assassination Attempt",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"What a Nasty Question\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Fake News\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Tampon Tim\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Kamala Laughs",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Trump Interrupts",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Complaining About Rules",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Kuh-MA-la\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Deep State",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Trump Compares Himself to Lincoln or MLK",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"CHYNA\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Border Czar\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Brings up \"The Steal\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Hunter Biden\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "alternatively \"latpot from hell\"",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"DEI\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Kamala is a Commie",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Project 2025 Agenda\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Trump Forgets He's Not Running Against Biden",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Weird\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Migrant Invasion",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Gas Stoves",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Inneffective Moderator",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Drinking Water Poorly",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Harris Calls Trump a Felon",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Israel Is Never Brought Up",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Drill, Baby, Drill",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Trump Talks w/ Muted Mic",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Trump Admires a Dictator",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "JD Vance Mentioned!",
+			"ignoreTitle": false,
+			"filename": "res://assets/images/squares-other/jdvance.png",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "A Lie Goes Unchecked",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "Anything is Fact-Checked",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		},
+		{
+			"title": "\"Crowd Sizes\"",
+			"ignoreTitle": false,
+			"filename": "",
+			"headerHeight": 0,
+			"subCategories": [],
+			"tooltip": "",
+			"rarity": 1,
+			"fontSizeAdjust": 0
+		}
+	]
+}
