@@ -3,19 +3,16 @@ var gameModeFiles = {
 	"christian-classic": "res://assets/game-modes/christian-classic.json",
 	"christian-classic-v2": "res://assets/game-modes/christian-classic-v2.json",
 	"conspiracy": "res://assets/game-modes/conspiracy.json",
-	"neil-breen": "res://assets/game-modes/neil-breen.json",
-	"debate-2024": "res://assets/game-modes/pres-debate-2024.json"
+	"neil-breen": "res://assets/game-modes/neil-breen.json"
 }
 
 # NxN number of cells for grid
 var gridSize: int = 0
 
 # stores selected game configuration for easy access
-#var currentGameTitle: String = "Christian Movie Bingo"
-var currentGameTitle: String = "Debate 2024"
+var currentGameTitle: String = "Christian Movie Bingo"
 var currentGameData: Array = []
-#var currentGameHeader: String = "res://assets/images/mode-logos/banner-gam.png"
-var currentGameHeader: String = "res://assets/images/mode-logos/banner-debate2024.png"
+var currentGameHeader: String = "res://assets/images/mode-logos/banner-gam.png"
 var currentGameIgnoreRarity = true
 
 # holds all squares that have ever been included in the current board
@@ -36,8 +33,7 @@ func getGameSquareData() -> Array:
 	if currentGameData.size():
 		return currentGameData
 	else:
-		#var defaultData = Utils.getJSONData(gameModeFiles["christian-classic"])
-		var defaultData = Utils.getJSONData(gameModeFiles["debate-2024"])
+		var defaultData = Utils.getJSONData(gameModeFiles["christian-classic"])
 		currentGameIgnoreRarity = defaultData["ignoreRarity"]
 		currentGameHeader = defaultData["header"]
 		return defaultData.data
