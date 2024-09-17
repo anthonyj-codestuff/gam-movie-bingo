@@ -54,14 +54,14 @@ grow_vertical = 2
 rotation = -0.436332
 theme_override_colors/default_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/line_separation = -130
 theme_override_constants/outline_size = 20
+theme_override_constants/line_separation = -130
 theme_override_fonts/normal_font = ExtResource("1_akhhq")
+theme_override_font_sizes/bold_italics_font_size = 150
+theme_override_font_sizes/italics_font_size = 150
+theme_override_font_sizes/mono_font_size = 150
 theme_override_font_sizes/normal_font_size = 150
 theme_override_font_sizes/bold_font_size = 150
-theme_override_font_sizes/italics_font_size = 150
-theme_override_font_sizes/bold_italics_font_size = 150
-theme_override_font_sizes/mono_font_size = 150
 text = "MOVIE BINGO"
 fit_content = true
 
@@ -79,8 +79,8 @@ layout_mode = 2
 size_flags_vertical = 3
 mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 38
 text = "Easy (3x3)"
 
@@ -93,8 +93,8 @@ layout_mode = 2
 size_flags_vertical = 3
 mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 38
 text = "Medium (4x4)"
 
@@ -107,8 +107,8 @@ layout_mode = 2
 size_flags_vertical = 3
 mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 38
 text = "Hard (5x5)"
 
@@ -121,8 +121,8 @@ layout_mode = 2
 size_flags_vertical = 3
 mouse_default_cursor_shape = 2
 theme = ExtResource("3_bpwdo")
-theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0.2, 0.2, 0.2, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 38
 text = "Daring (6x6)"
 
@@ -151,8 +151,8 @@ offset_right = 163.0
 offset_bottom = 946.0
 mouse_default_cursor_shape = 2
 theme = ExtResource("4_5w8hp")
-theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 0, 1)
 text = "Options"
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
